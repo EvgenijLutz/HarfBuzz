@@ -1,4 +1,4 @@
-module HarfBuzz {
+module libharfbuzz {
     header "../hb.h"
 
     export *

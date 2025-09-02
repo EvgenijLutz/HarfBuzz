@@ -1,5 +1,0 @@
-module HarfBuzz {
-    header "../hb.h"
-
-    export *
-}

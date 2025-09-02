@@ -4,52 +4,54 @@
 import PackageDescription
 
 let package = Package(
-    name: "HarfBuzzFramework",
+    name: "HarfBuzz",
     platforms: [
-        .macOS(.v10_13),
-        .iOS(.v12),
-        .tvOS(.v12),
-        .watchOS(.v8),
+        .macOS(.v14),
+        .iOS(.v17),
+        .tvOS(.v17),
+        .watchOS(.v10),
         .visionOS(.v1)
     ],
     products: [
         .library(
-            name: "HarfBuzzFramework",
-            targets: ["HarfBuzzFramework"]
+            name: "HarfBuzz",
+            targets: ["HarfBuzz"]
         ),
         .library(
             name: "HarfBuzzC",
             targets: ["HarfBuzzC"]
         ),
         .library(
-            name: "HarfBuzz",
-            targets: ["HarfBuzz"]
+            name: "libharfbuzz",
+            targets: ["libharfbuzz"]
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/EvgenijLutz/FreeTypeFramework.git", exact: "2.13.3-alpha4"),
+        .package(url: "https://github.com/EvgenijLutz/FreeType.git", exact: "2.13.3-alpha5"),
     ],
     targets: [
         .binaryTarget(
-            name: "HarfBuzz",
-            path: "HarfBuzz.xcframework"
+            name: "libharfbuzz",
+            path: "Binaries/libharfbuzz.xcframework"
         ),
         .target(
             name: "HarfBuzzC",
             dependencies: [
-                .product(name: "FreeTypeC", package: "FreeTypeFramework"),
-                .target(name: "HarfBuzz")
+                .product(name: "FreeTypeC", package: "FreeType"),
+                .target(name: "libharfbuzz")
             ]
         ),
         .target(
-            name: "HarfBuzzFramework",
+            name: "HarfBuzz",
             dependencies: [
-                .product(name: "FreeTypeFramework", package: "FreeTypeFramework"),
+                .product(name: "FreeType", package: "FreeType"),
                 .target(name: "HarfBuzzC")
             ],
             swiftSettings: [
                 .interoperabilityMode(.Cxx)
             ]
         ),
-    ]
+    ],
+    cLanguageStandard: .c17,
+    cxxLanguageStandard: .cxx20
 )

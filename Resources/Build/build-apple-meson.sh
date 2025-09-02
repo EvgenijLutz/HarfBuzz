@@ -4,7 +4,7 @@
 freetype_framework_path='/Users/evgenij/Developer/Xcode projects/FreeTypeFramework/FreeType.xcframework'
 platforms_path='/Applications/Xcode.app/Contents/Developer/Platforms'
 # Your signing identity to sign the xcframework. Execute "security find-identity -v -p codesigning" and select one from the list
-identity=YOUR_SIGNING_IDENTITY
+identity=B42A10624E8E06BC95CD03069100C6E67121D61B
 
 
 # Console output formatting
@@ -203,7 +203,7 @@ build_library XRSimulator      x86_64 xros1-simulator
 
 create_framework() {
   # Remove previously created framework if exists
-  rm -rf build-apple/HarfBuzz.xcframework
+  rm -rf build-apple/libharfbuzz.xcframework
   exit_if_error
 
   # Merge macOS arm and x86 binaries
@@ -257,11 +257,11 @@ create_framework() {
     -library build-apple/WatchSimulator/libharfbuzz.a              -headers build-apple/WatchSimulator/arm64/install/include/harfbuzz \
     -library build-apple/XROS/arm64/install/lib/libharfbuzz.a      -headers build-apple/XROS/arm64/install/include/harfbuzz \
     -library build-apple/XRSimulator/libharfbuzz.a                 -headers build-apple/XRSimulator/arm64/install/include/harfbuzz \
-    -output build-apple/HarfBuzz.xcframework
+    -output build-apple/libharfbuzz.xcframework
   exit_if_error
 
   # And sign the framework
-  codesign --timestamp -s $identity build-apple/HarfBuzz.xcframework
+  codesign --timestamp -s $identity build-apple/libharfbuzz.xcframework
   exit_if_error
 }
 create_framework

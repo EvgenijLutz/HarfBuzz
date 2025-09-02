@@ -1,22 +1,22 @@
 {
-  "originHash" : "6afe78143866c46851d21a15aa9086ac461080b62d1f8e7a27ee61a288e19d05",
+  "originHash" : "682a502d507d8f3bed5833713e82bd949756e0c9470bc9f9b18b871d90161fae",
   "pins" : [
     {
-      "identity" : "freetypeframework",
+      "identity" : "freetype",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/EvgenijLutz/FreeTypeFramework.git",
+      "location" : "https://github.com/EvgenijLutz/FreeType.git",
       "state" : {
-        "revision" : "4e5210696e70b4b4ce5794b45e53d85ad0a95ad4",
-        "version" : "2.13.3-alpha4"
+        "revision" : "61939aa87cf016800babaf2c03d90fde5f122e45",
+        "version" : "2.13.3-alpha5"
       }
     },
     {
-      "identity" : "libpngframework",
+      "identity" : "libpng",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/EvgenijLutz/LibPNGFramework.git",
+      "location" : "https://github.com/EvgenijLutz/LibPNG.git",
       "state" : {
-        "revision" : "1b70e7e62d4f65aabf80ee0dde94b57a48019949",
-        "version" : "1.6.50-alpha2"
+        "revision" : "50de20770f65550deb4ce38f019936debc687159",
+        "version" : "1.6.50-alpha3"
       }
     }
   ],

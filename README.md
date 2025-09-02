@@ -1,6 +1,6 @@
-# HarfBuzzFramework
+# HarfBuzz
 
-A cross-platform HarfBuzz wrapper for Apple platforms, distributed as a Swift Package with C and C++ interop, [FreeType](https://github.com/freetype/freetype) and [libpng](https://github.com/pnggroup/libpng) support, and XCFramework binary integration.
+A cross-platform [HarfBuzz](https://github.com/harfbuzz/harfbuzz) wrapper for Apple platforms, distributed as a Swift Package with C and C++ interop, [FreeType](https://github.com/freetype/freetype) and [libpng](https://github.com/pnggroup/libpng) support, and XCFramework binary integration.
 
 Supports **iOS**, **macOS**, **tvOS**, **watchOS**, **visionOS** - device and simulator - all in one neat package.
 
@@ -17,16 +17,16 @@ Supports **iOS**, **macOS**, **tvOS**, **watchOS**, **visionOS** - device and si
 Add the following to your `Package.swift` dependency:
 
 ```swift
-.package(url: "https://github.com/EvgenijLutz/HarfBuzzFramework", from: "11.3.3-alpha1")
+.package(url: "https://github.com/EvgenijLutz/HarfBuzz", from: "11.4.5")
 ```
 
-Then add HarfBuzzFramework as a dependency in your target:
+Then add HarfBuzz as a dependency in your target:
 
 ```swift
 .target(
   name: "YourApp",
   dependencies: [
-    .product(name: "HarfBuzzFramework", package: "HarfBuzzFramework")
+    .product(name: "HarfBuzz", package: "HarfBuzz")
   ]
 )
 ```
