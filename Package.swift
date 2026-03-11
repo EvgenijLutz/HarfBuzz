@@ -1,4 +1,4 @@
-// swift-tools-version: 6.1
+// swift-tools-version: 6.2
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -6,10 +6,10 @@ import PackageDescription
 let package = Package(
     name: "HarfBuzz",
     platforms: [
-        .macOS(.v14),
-        .iOS(.v17),
-        .tvOS(.v17),
-        .watchOS(.v10),
+        .macOS(.v11),
+        .iOS(.v12),
+        .tvOS(.v12),
+        .watchOS(.v8),
         .visionOS(.v1)
     ],
     products: [
@@ -27,7 +27,13 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/EvgenijLutz/FreeType.git", exact: "2.13.3-alpha5"),
+        {
+#if true
+            .package(url: "https://github.com/EvgenijLutz/FreeType.git", from: "2.14.2")
+#else
+            .package(name: "FreeType", path: "../FreeType")
+#endif
+        }()
     ],
     targets: [
         .binaryTarget(
@@ -39,6 +45,12 @@ let package = Package(
             dependencies: [
                 .product(name: "FreeTypeC", package: "FreeType"),
                 .target(name: "libharfbuzz")
+            ],
+            cSettings: [
+                .enableWarning("all")
+            ],
+            cxxSettings: [
+                .enableWarning("all")
             ]
         ),
         .target(
