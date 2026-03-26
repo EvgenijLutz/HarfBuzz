@@ -29,7 +29,7 @@ let package = Package(
     dependencies: [
         {
 #if true
-            .package(url: "https://github.com/EvgenijLutz/FreeType.git", from: "2.14.2")
+            .package(url: "https://github.com/EvgenijLutz/FreeType.git", from: "2.14.3")
 #else
             .package(name: "FreeType", path: "../FreeType")
 #endif

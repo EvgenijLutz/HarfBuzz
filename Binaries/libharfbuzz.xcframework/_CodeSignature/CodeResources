@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		yJCM6205L8uPOGT34ix16SXsZGA=
+		</data>
+		<key>ios-arm64/.DS_Store</key>
+		<data>
+		BbvNhpRNS+iPwih0QCN8L1XVdVE=
+		</data>
+		<key>ios-arm64/Headers/.DS_Store</key>
+		<data>
+		TVwrAKG3HVoSbvcXjdogpAwI8x8=
+		</data>
 		<key>ios-arm64/Headers/HarfBuzz-Module/module.modulemap</key>
 		<data>
 		ZE70oq1Mv5U5t1FOPIvFTdBhj6c=
@@ -1269,10 +1281,6 @@
 	<dict>
 		<key>ios-arm64/Headers/HarfBuzz-Module/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZE70oq1Mv5U5t1FOPIvFTdBhj6c=
-			</data>
 			<key>hash2</key>
 			<data>
 			nfh36/Ub2S6+qq31uoSORumJE+eA/yak1M6BmKyyHjw=
@@ -1280,10 +1288,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-aat-layout.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lg4nmJDFSPpCfRflwKCt1ie3G14=
-			</data>
 			<key>hash2</key>
 			<data>
 			GSYIVe/6Nl2rvqYFQ4E724jGeDWqNHt5cOQWkG8/85I=
@@ -1291,10 +1295,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-aat.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			axIPlZtV0XYOHDIBraHYH7SQYww=
-			</data>
 			<key>hash2</key>
 			<data>
 			vOEAk8rTnPvVNV12M2iyKgSuK+ySie8GQuX3Ur1uef8=
@@ -1302,10 +1302,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-blob.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			M9vbvYZ0oDAaoyuYO7Mbn1uuLQA=
-			</data>
 			<key>hash2</key>
 			<data>
 			cQ/gob47OjRBVJOb6b9swwZ09qvUrg/MDTFEuda5pr0=
@@ -1313,10 +1309,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-buffer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2eb1H6xsXbjXBrQQlBsed/VY3SQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			IqjyFd8E5hnXTgc/b3hJtlIxJ0psgHOY1QX31wpUGNc=
@@ -1324,10 +1316,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-common.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JsUSnR5KFQTvDxRmzh+YmjStQYE=
-			</data>
 			<key>hash2</key>
 			<data>
 			qNR2VGmFbWo06i+tWHZlza5quokiqYXrTXFe/OMCf3Q=
@@ -1335,10 +1323,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-cplusplus.hh</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uUVHfoD+rerPgaiXZHdpJjxGjro=
-			</data>
 			<key>hash2</key>
 			<data>
 			yHb8yYCqbJ4e5Zvs5XJPMgdvYNms+Zi+7aqFGemuzoo=
@@ -1346,10 +1330,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-deprecated.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JUvtQ2RW5fWFBM67GV3nDICEJHY=
-			</data>
 			<key>hash2</key>
 			<data>
 			0LMrU2GF/J7gQuU3G1gcMw+4cdVGp8indffW1jW337U=
@@ -1357,10 +1337,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-draw.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+DLFLG36QAjxCC/uWEKHq1F+S5A=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ecoal17AJiEgZJ6BZNMjqqTmUtrVO9h+sqiTVrhwbRs=
@@ -1368,10 +1344,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-face.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SdUVb/x8JfQKA9JZjsDiX/vWu28=
-			</data>
 			<key>hash2</key>
 			<data>
 			HmsXn5ewVcSKqt/jGtwgoJDPRjM259Ebg7g0Zn6I+dw=
@@ -1379,10 +1351,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-features.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jq1oL0swMUm3PeZxA2XRH8+d+2Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			YbbJf0fsP2jc6GMyIdVTDWXpxmR9Cbqtq95m2q6MAlM=
@@ -1390,10 +1358,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-font.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			POwRSFSJxJv+TF74vDdyx81HDsY=
-			</data>
 			<key>hash2</key>
 			<data>
 			p7DLhG48rYhXiiQ1SDv2T2sWTUpjpT5NeeYii8AFPnM=
@@ -1401,10 +1365,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-ft.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UhpfyORDgDRcTvZrALdLnBZQFNQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			5aEo3lgbrZHuxk6wV6Jtu0U5tgyvpgF9XKJXjP4N4+g=
@@ -1412,10 +1372,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-map.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			n5VJZcrRRi3ti8L8tRt/7XXseYU=
-			</data>
 			<key>hash2</key>
 			<data>
 			sHOqGXGOQ+NTXK7dwAFaTkWokDKnYFnMWrjz8NIgvs4=
@@ -1423,10 +1379,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-ot-color.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZIJ2xZ6nn61xtYs5p7egHrcPmCw=
-			</data>
 			<key>hash2</key>
 			<data>
 			MhalGqvl45YeLBGvhU3a1XRxAJzM2HkOLSbhjqofE5w=
@@ -1434,10 +1386,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-ot-deprecated.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xo7MNYehV5w6GHH/y/ZBrw9B908=
-			</data>
 			<key>hash2</key>
 			<data>
 			w6mHisBjPV5tfhaCERStRVVFimkkEAWB8NFv71coscQ=
@@ -1445,10 +1393,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-ot-font.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0TYcMUY1rmeaxDT/t3UGXoU8+aQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			5i0Xiqc++cgLCNPAdts+mbuMtOghnpeOeT73/+ll+PE=
@@ -1456,10 +1400,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-ot-layout.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Yco8SJN3wYMnPEGsvcP+/Q4kTiY=
-			</data>
 			<key>hash2</key>
 			<data>
 			oXi1QfBwUsl0cfSiOlhR1iS8re3XYzwa96IaLClPPI0=
@@ -1467,10 +1407,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-ot-math.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kK83g2YJQd6/x1MXGeAkbq9sbb4=
-			</data>
 			<key>hash2</key>
 			<data>
 			TnN+Xtncs9sYpkU0of8vr2OO9yDcMNsO6CEyQJlDL5A=
@@ -1478,10 +1414,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-ot-meta.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fpwdtop84E+SAv5R8we8rZnEJE0=
-			</data>
 			<key>hash2</key>
 			<data>
 			HTjJvLwNQX+Lfg6BjC9fm4PSq93Dny8RbMCuhBV6Vy0=
@@ -1489,10 +1421,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-ot-metrics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			E/SpHR5TfNMW5z6WEnFmhtb6FW0=
-			</data>
 			<key>hash2</key>
 			<data>
 			xlI58QBZDPGx9ke7pszRpUik6Jy4CXhgHKMFDpiE5yQ=
@@ -1500,10 +1428,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-ot-name.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uTmbqewWEATnGXZHmMRFVXvy0O0=
-			</data>
 			<key>hash2</key>
 			<data>
 			W+kkaH9xoPmBSbGYfz3j/XZu2ehMThRCUOlwSKNssaw=
@@ -1511,10 +1435,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-ot-shape.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QCkZWwgLXHu7JCIEPo0a7pw9sZ8=
-			</data>
 			<key>hash2</key>
 			<data>
 			XXQfmuZy1Lcark1gTtT+SpB3uExLKptG8TB/JHLoxN8=
@@ -1522,10 +1442,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-ot-var.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nwAVzCOjesflpZrjfQuhJbzCAiI=
-			</data>
 			<key>hash2</key>
 			<data>
 			nEOLw09Dr8yVw/XzkLkpkDFWr5PhlHP8KdqmUNmM8g4=
@@ -1533,10 +1449,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-ot.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sSijtq30e6gdk61SzjrR4QIbYss=
-			</data>
 			<key>hash2</key>
 			<data>
 			xcghxHdWdBuuegEh9EA5GijV4YiCRGnyKB3Qi4xlWhY=
@@ -1544,10 +1456,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-paint.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EqkX5AoYspf8zPl+oO+R+XpWI78=
-			</data>
 			<key>hash2</key>
 			<data>
 			qIRYgCcUvoi3lDLzJATZ5SBGbqGhmuQpKOj/NbCYMLw=
@@ -1555,10 +1463,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-script-list.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4jMv4/pIuvU3rQE1VNORbCsPO5k=
-			</data>
 			<key>hash2</key>
 			<data>
 			BifZ9qWaiwnlYuiur0FDAImTCHJTUL7rULYrhlc5lXY=
@@ -1566,10 +1470,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-set.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			l4sCTmOgzaYeSkCxPrVrPI50+tg=
-			</data>
 			<key>hash2</key>
 			<data>
 			DuNsGgkm5RuyoFBoeTDbRkuOcZ9YI82ToMliJrjMt4M=
@@ -1577,10 +1477,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-shape-plan.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			j71oGIrUtBzoM01FGGZWgsKqVXM=
-			</data>
 			<key>hash2</key>
 			<data>
 			A1VcglWPo0fpZUnsmWmPrnkMLPue55XF6kj/QTTgYiQ=
@@ -1588,10 +1484,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-shape.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/DnQwVA50DI50NzYI0cMMOLLDNQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ot/PUQhTvBGKEgt2M8Dk0VE05KxL33kRy4VRGIfn4yg=
@@ -1599,10 +1491,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-style.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zLIIDV9peD1SGWK94A69nOg9VyQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			boiuw65tsXazfk1giZI/eIWRNKJv0SsztAt3LpFnO1o=
@@ -1610,10 +1498,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-unicode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NFa5zLortuaUgLdTGejihn4zWek=
-			</data>
 			<key>hash2</key>
 			<data>
 			YTHw655BH6OSEB9YeT9OQ0fsO8b+RSJnNrGGAEzqgDg=
@@ -1621,10 +1505,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb-version.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sstGYn1GOxkDNtZy+HkUYC+1iWM=
-			</data>
 			<key>hash2</key>
 			<data>
 			hL8lp1fgM1coh1Hia49l25QU68Qt7PielM/mJ0y3qs0=
@@ -1632,10 +1512,6 @@
 		</dict>
 		<key>ios-arm64/Headers/hb.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zAdP6NIgD5P0Ci+F+3U4AR0fZ8s=
-			</data>
 			<key>hash2</key>
 			<data>
 			MaG1PbPuQ5WRbm1PEFssZHcrgDe7uX0ObR5KkF62xsk=
@@ -1643,10 +1519,6 @@
 		</dict>
 		<key>ios-arm64/libharfbuzz.a</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NVM7H+IbT8f5dLCG3gKVpxppL90=
-			</data>
 			<key>hash2</key>
 			<data>
 			sI1LV0fvYUSp26folmt8DO0nQzQ1FoaWGtWdew9pKS0=
@@ -1654,10 +1526,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/HarfBuzz-Module/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZE70oq1Mv5U5t1FOPIvFTdBhj6c=
-			</data>
 			<key>hash2</key>
 			<data>
 			nfh36/Ub2S6+qq31uoSORumJE+eA/yak1M6BmKyyHjw=
@@ -1665,10 +1533,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-aat-layout.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lg4nmJDFSPpCfRflwKCt1ie3G14=
-			</data>
 			<key>hash2</key>
 			<data>
 			GSYIVe/6Nl2rvqYFQ4E724jGeDWqNHt5cOQWkG8/85I=
@@ -1676,10 +1540,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-aat.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			axIPlZtV0XYOHDIBraHYH7SQYww=
-			</data>
 			<key>hash2</key>
 			<data>
 			vOEAk8rTnPvVNV12M2iyKgSuK+ySie8GQuX3Ur1uef8=
@@ -1687,10 +1547,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-blob.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			M9vbvYZ0oDAaoyuYO7Mbn1uuLQA=
-			</data>
 			<key>hash2</key>
 			<data>
 			cQ/gob47OjRBVJOb6b9swwZ09qvUrg/MDTFEuda5pr0=
@@ -1698,10 +1554,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-buffer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2eb1H6xsXbjXBrQQlBsed/VY3SQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			IqjyFd8E5hnXTgc/b3hJtlIxJ0psgHOY1QX31wpUGNc=
@@ -1709,10 +1561,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-common.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JsUSnR5KFQTvDxRmzh+YmjStQYE=
-			</data>
 			<key>hash2</key>
 			<data>
 			qNR2VGmFbWo06i+tWHZlza5quokiqYXrTXFe/OMCf3Q=
@@ -1720,10 +1568,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-cplusplus.hh</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uUVHfoD+rerPgaiXZHdpJjxGjro=
-			</data>
 			<key>hash2</key>
 			<data>
 			yHb8yYCqbJ4e5Zvs5XJPMgdvYNms+Zi+7aqFGemuzoo=
@@ -1731,10 +1575,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-deprecated.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JUvtQ2RW5fWFBM67GV3nDICEJHY=
-			</data>
 			<key>hash2</key>
 			<data>
 			0LMrU2GF/J7gQuU3G1gcMw+4cdVGp8indffW1jW337U=
@@ -1742,10 +1582,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-draw.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+DLFLG36QAjxCC/uWEKHq1F+S5A=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ecoal17AJiEgZJ6BZNMjqqTmUtrVO9h+sqiTVrhwbRs=
@@ -1753,10 +1589,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-face.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SdUVb/x8JfQKA9JZjsDiX/vWu28=
-			</data>
 			<key>hash2</key>
 			<data>
 			HmsXn5ewVcSKqt/jGtwgoJDPRjM259Ebg7g0Zn6I+dw=
@@ -1764,10 +1596,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-features.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jq1oL0swMUm3PeZxA2XRH8+d+2Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			YbbJf0fsP2jc6GMyIdVTDWXpxmR9Cbqtq95m2q6MAlM=
@@ -1775,10 +1603,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-font.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			POwRSFSJxJv+TF74vDdyx81HDsY=
-			</data>
 			<key>hash2</key>
 			<data>
 			p7DLhG48rYhXiiQ1SDv2T2sWTUpjpT5NeeYii8AFPnM=
@@ -1786,10 +1610,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-ft.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UhpfyORDgDRcTvZrALdLnBZQFNQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			5aEo3lgbrZHuxk6wV6Jtu0U5tgyvpgF9XKJXjP4N4+g=
@@ -1797,10 +1617,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-map.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			n5VJZcrRRi3ti8L8tRt/7XXseYU=
-			</data>
 			<key>hash2</key>
 			<data>
 			sHOqGXGOQ+NTXK7dwAFaTkWokDKnYFnMWrjz8NIgvs4=
@@ -1808,10 +1624,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-ot-color.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZIJ2xZ6nn61xtYs5p7egHrcPmCw=
-			</data>
 			<key>hash2</key>
 			<data>
 			MhalGqvl45YeLBGvhU3a1XRxAJzM2HkOLSbhjqofE5w=
@@ -1819,10 +1631,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-ot-deprecated.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xo7MNYehV5w6GHH/y/ZBrw9B908=
-			</data>
 			<key>hash2</key>
 			<data>
 			w6mHisBjPV5tfhaCERStRVVFimkkEAWB8NFv71coscQ=
@@ -1830,10 +1638,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-ot-font.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0TYcMUY1rmeaxDT/t3UGXoU8+aQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			5i0Xiqc++cgLCNPAdts+mbuMtOghnpeOeT73/+ll+PE=
@@ -1841,10 +1645,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-ot-layout.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Yco8SJN3wYMnPEGsvcP+/Q4kTiY=
-			</data>
 			<key>hash2</key>
 			<data>
 			oXi1QfBwUsl0cfSiOlhR1iS8re3XYzwa96IaLClPPI0=
@@ -1852,10 +1652,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-ot-math.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kK83g2YJQd6/x1MXGeAkbq9sbb4=
-			</data>
 			<key>hash2</key>
 			<data>
 			TnN+Xtncs9sYpkU0of8vr2OO9yDcMNsO6CEyQJlDL5A=
@@ -1863,10 +1659,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-ot-meta.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fpwdtop84E+SAv5R8we8rZnEJE0=
-			</data>
 			<key>hash2</key>
 			<data>
 			HTjJvLwNQX+Lfg6BjC9fm4PSq93Dny8RbMCuhBV6Vy0=
@@ -1874,10 +1666,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-ot-metrics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			E/SpHR5TfNMW5z6WEnFmhtb6FW0=
-			</data>
 			<key>hash2</key>
 			<data>
 			xlI58QBZDPGx9ke7pszRpUik6Jy4CXhgHKMFDpiE5yQ=
@@ -1885,10 +1673,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-ot-name.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uTmbqewWEATnGXZHmMRFVXvy0O0=
-			</data>
 			<key>hash2</key>
 			<data>
 			W+kkaH9xoPmBSbGYfz3j/XZu2ehMThRCUOlwSKNssaw=
@@ -1896,10 +1680,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-ot-shape.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QCkZWwgLXHu7JCIEPo0a7pw9sZ8=
-			</data>
 			<key>hash2</key>
 			<data>
 			XXQfmuZy1Lcark1gTtT+SpB3uExLKptG8TB/JHLoxN8=
@@ -1907,10 +1687,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-ot-var.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nwAVzCOjesflpZrjfQuhJbzCAiI=
-			</data>
 			<key>hash2</key>
 			<data>
 			nEOLw09Dr8yVw/XzkLkpkDFWr5PhlHP8KdqmUNmM8g4=
@@ -1918,10 +1694,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-ot.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sSijtq30e6gdk61SzjrR4QIbYss=
-			</data>
 			<key>hash2</key>
 			<data>
 			xcghxHdWdBuuegEh9EA5GijV4YiCRGnyKB3Qi4xlWhY=
@@ -1929,10 +1701,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-paint.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EqkX5AoYspf8zPl+oO+R+XpWI78=
-			</data>
 			<key>hash2</key>
 			<data>
 			qIRYgCcUvoi3lDLzJATZ5SBGbqGhmuQpKOj/NbCYMLw=
@@ -1940,10 +1708,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-script-list.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4jMv4/pIuvU3rQE1VNORbCsPO5k=
-			</data>
 			<key>hash2</key>
 			<data>
 			BifZ9qWaiwnlYuiur0FDAImTCHJTUL7rULYrhlc5lXY=
@@ -1951,10 +1715,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-set.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			l4sCTmOgzaYeSkCxPrVrPI50+tg=
-			</data>
 			<key>hash2</key>
 			<data>
 			DuNsGgkm5RuyoFBoeTDbRkuOcZ9YI82ToMliJrjMt4M=
@@ -1962,10 +1722,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-shape-plan.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			j71oGIrUtBzoM01FGGZWgsKqVXM=
-			</data>
 			<key>hash2</key>
 			<data>
 			A1VcglWPo0fpZUnsmWmPrnkMLPue55XF6kj/QTTgYiQ=
@@ -1973,10 +1729,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-shape.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/DnQwVA50DI50NzYI0cMMOLLDNQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ot/PUQhTvBGKEgt2M8Dk0VE05KxL33kRy4VRGIfn4yg=
@@ -1984,10 +1736,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-style.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zLIIDV9peD1SGWK94A69nOg9VyQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			boiuw65tsXazfk1giZI/eIWRNKJv0SsztAt3LpFnO1o=
@@ -1995,10 +1743,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-unicode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NFa5zLortuaUgLdTGejihn4zWek=
-			</data>
 			<key>hash2</key>
 			<data>
 			YTHw655BH6OSEB9YeT9OQ0fsO8b+RSJnNrGGAEzqgDg=
@@ -2006,10 +1750,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb-version.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sstGYn1GOxkDNtZy+HkUYC+1iWM=
-			</data>
 			<key>hash2</key>
 			<data>
 			hL8lp1fgM1coh1Hia49l25QU68Qt7PielM/mJ0y3qs0=
@@ -2017,10 +1757,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Headers/hb.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zAdP6NIgD5P0Ci+F+3U4AR0fZ8s=
-			</data>
 			<key>hash2</key>
 			<data>
 			MaG1PbPuQ5WRbm1PEFssZHcrgDe7uX0ObR5KkF62xsk=
@@ -2028,10 +1764,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/libharfbuzz.a</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0N2sQt0FI9JnDUGR0aazoD4S1oI=
-			</data>
 			<key>hash2</key>
 			<data>
 			l5km3MyeUm295DhURxC+xD6WaNluWcl1kGRSutzwzgU=
@@ -2039,10 +1771,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/HarfBuzz-Module/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZE70oq1Mv5U5t1FOPIvFTdBhj6c=
-			</data>
 			<key>hash2</key>
 			<data>
 			nfh36/Ub2S6+qq31uoSORumJE+eA/yak1M6BmKyyHjw=
@@ -2050,10 +1778,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-aat-layout.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lg4nmJDFSPpCfRflwKCt1ie3G14=
-			</data>
 			<key>hash2</key>
 			<data>
 			GSYIVe/6Nl2rvqYFQ4E724jGeDWqNHt5cOQWkG8/85I=
@@ -2061,10 +1785,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-aat.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			axIPlZtV0XYOHDIBraHYH7SQYww=
-			</data>
 			<key>hash2</key>
 			<data>
 			vOEAk8rTnPvVNV12M2iyKgSuK+ySie8GQuX3Ur1uef8=
@@ -2072,10 +1792,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-blob.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			M9vbvYZ0oDAaoyuYO7Mbn1uuLQA=
-			</data>
 			<key>hash2</key>
 			<data>
 			cQ/gob47OjRBVJOb6b9swwZ09qvUrg/MDTFEuda5pr0=
@@ -2083,10 +1799,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-buffer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2eb1H6xsXbjXBrQQlBsed/VY3SQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			IqjyFd8E5hnXTgc/b3hJtlIxJ0psgHOY1QX31wpUGNc=
@@ -2094,10 +1806,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-common.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JsUSnR5KFQTvDxRmzh+YmjStQYE=
-			</data>
 			<key>hash2</key>
 			<data>
 			qNR2VGmFbWo06i+tWHZlza5quokiqYXrTXFe/OMCf3Q=
@@ -2105,10 +1813,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-cplusplus.hh</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uUVHfoD+rerPgaiXZHdpJjxGjro=
-			</data>
 			<key>hash2</key>
 			<data>
 			yHb8yYCqbJ4e5Zvs5XJPMgdvYNms+Zi+7aqFGemuzoo=
@@ -2116,10 +1820,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-deprecated.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JUvtQ2RW5fWFBM67GV3nDICEJHY=
-			</data>
 			<key>hash2</key>
 			<data>
 			0LMrU2GF/J7gQuU3G1gcMw+4cdVGp8indffW1jW337U=
@@ -2127,10 +1827,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-draw.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+DLFLG36QAjxCC/uWEKHq1F+S5A=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ecoal17AJiEgZJ6BZNMjqqTmUtrVO9h+sqiTVrhwbRs=
@@ -2138,10 +1834,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-face.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SdUVb/x8JfQKA9JZjsDiX/vWu28=
-			</data>
 			<key>hash2</key>
 			<data>
 			HmsXn5ewVcSKqt/jGtwgoJDPRjM259Ebg7g0Zn6I+dw=
@@ -2149,10 +1841,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-features.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jq1oL0swMUm3PeZxA2XRH8+d+2Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			YbbJf0fsP2jc6GMyIdVTDWXpxmR9Cbqtq95m2q6MAlM=
@@ -2160,10 +1848,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-font.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			POwRSFSJxJv+TF74vDdyx81HDsY=
-			</data>
 			<key>hash2</key>
 			<data>
 			p7DLhG48rYhXiiQ1SDv2T2sWTUpjpT5NeeYii8AFPnM=
@@ -2171,10 +1855,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-ft.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UhpfyORDgDRcTvZrALdLnBZQFNQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			5aEo3lgbrZHuxk6wV6Jtu0U5tgyvpgF9XKJXjP4N4+g=
@@ -2182,10 +1862,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-map.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			n5VJZcrRRi3ti8L8tRt/7XXseYU=
-			</data>
 			<key>hash2</key>
 			<data>
 			sHOqGXGOQ+NTXK7dwAFaTkWokDKnYFnMWrjz8NIgvs4=
@@ -2193,10 +1869,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-ot-color.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZIJ2xZ6nn61xtYs5p7egHrcPmCw=
-			</data>
 			<key>hash2</key>
 			<data>
 			MhalGqvl45YeLBGvhU3a1XRxAJzM2HkOLSbhjqofE5w=
@@ -2204,10 +1876,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-ot-deprecated.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xo7MNYehV5w6GHH/y/ZBrw9B908=
-			</data>
 			<key>hash2</key>
 			<data>
 			w6mHisBjPV5tfhaCERStRVVFimkkEAWB8NFv71coscQ=
@@ -2215,10 +1883,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-ot-font.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0TYcMUY1rmeaxDT/t3UGXoU8+aQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			5i0Xiqc++cgLCNPAdts+mbuMtOghnpeOeT73/+ll+PE=
@@ -2226,10 +1890,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-ot-layout.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Yco8SJN3wYMnPEGsvcP+/Q4kTiY=
-			</data>
 			<key>hash2</key>
 			<data>
 			oXi1QfBwUsl0cfSiOlhR1iS8re3XYzwa96IaLClPPI0=
@@ -2237,10 +1897,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-ot-math.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kK83g2YJQd6/x1MXGeAkbq9sbb4=
-			</data>
 			<key>hash2</key>
 			<data>
 			TnN+Xtncs9sYpkU0of8vr2OO9yDcMNsO6CEyQJlDL5A=
@@ -2248,10 +1904,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-ot-meta.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fpwdtop84E+SAv5R8we8rZnEJE0=
-			</data>
 			<key>hash2</key>
 			<data>
 			HTjJvLwNQX+Lfg6BjC9fm4PSq93Dny8RbMCuhBV6Vy0=
@@ -2259,10 +1911,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-ot-metrics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			E/SpHR5TfNMW5z6WEnFmhtb6FW0=
-			</data>
 			<key>hash2</key>
 			<data>
 			xlI58QBZDPGx9ke7pszRpUik6Jy4CXhgHKMFDpiE5yQ=
@@ -2270,10 +1918,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-ot-name.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uTmbqewWEATnGXZHmMRFVXvy0O0=
-			</data>
 			<key>hash2</key>
 			<data>
 			W+kkaH9xoPmBSbGYfz3j/XZu2ehMThRCUOlwSKNssaw=
@@ -2281,10 +1925,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-ot-shape.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QCkZWwgLXHu7JCIEPo0a7pw9sZ8=
-			</data>
 			<key>hash2</key>
 			<data>
 			XXQfmuZy1Lcark1gTtT+SpB3uExLKptG8TB/JHLoxN8=
@@ -2292,10 +1932,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-ot-var.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nwAVzCOjesflpZrjfQuhJbzCAiI=
-			</data>
 			<key>hash2</key>
 			<data>
 			nEOLw09Dr8yVw/XzkLkpkDFWr5PhlHP8KdqmUNmM8g4=
@@ -2303,10 +1939,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-ot.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sSijtq30e6gdk61SzjrR4QIbYss=
-			</data>
 			<key>hash2</key>
 			<data>
 			xcghxHdWdBuuegEh9EA5GijV4YiCRGnyKB3Qi4xlWhY=
@@ -2314,10 +1946,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-paint.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EqkX5AoYspf8zPl+oO+R+XpWI78=
-			</data>
 			<key>hash2</key>
 			<data>
 			qIRYgCcUvoi3lDLzJATZ5SBGbqGhmuQpKOj/NbCYMLw=
@@ -2325,10 +1953,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-script-list.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4jMv4/pIuvU3rQE1VNORbCsPO5k=
-			</data>
 			<key>hash2</key>
 			<data>
 			BifZ9qWaiwnlYuiur0FDAImTCHJTUL7rULYrhlc5lXY=
@@ -2336,10 +1960,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-set.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			l4sCTmOgzaYeSkCxPrVrPI50+tg=
-			</data>
 			<key>hash2</key>
 			<data>
 			DuNsGgkm5RuyoFBoeTDbRkuOcZ9YI82ToMliJrjMt4M=
@@ -2347,10 +1967,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-shape-plan.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			j71oGIrUtBzoM01FGGZWgsKqVXM=
-			</data>
 			<key>hash2</key>
 			<data>
 			A1VcglWPo0fpZUnsmWmPrnkMLPue55XF6kj/QTTgYiQ=
@@ -2358,10 +1974,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-shape.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/DnQwVA50DI50NzYI0cMMOLLDNQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ot/PUQhTvBGKEgt2M8Dk0VE05KxL33kRy4VRGIfn4yg=
@@ -2369,10 +1981,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-style.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zLIIDV9peD1SGWK94A69nOg9VyQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			boiuw65tsXazfk1giZI/eIWRNKJv0SsztAt3LpFnO1o=
@@ -2380,10 +1988,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-unicode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NFa5zLortuaUgLdTGejihn4zWek=
-			</data>
 			<key>hash2</key>
 			<data>
 			YTHw655BH6OSEB9YeT9OQ0fsO8b+RSJnNrGGAEzqgDg=
@@ -2391,10 +1995,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb-version.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sstGYn1GOxkDNtZy+HkUYC+1iWM=
-			</data>
 			<key>hash2</key>
 			<data>
 			hL8lp1fgM1coh1Hia49l25QU68Qt7PielM/mJ0y3qs0=
@@ -2402,10 +2002,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/Headers/hb.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zAdP6NIgD5P0Ci+F+3U4AR0fZ8s=
-			</data>
 			<key>hash2</key>
 			<data>
 			MaG1PbPuQ5WRbm1PEFssZHcrgDe7uX0ObR5KkF62xsk=
@@ -2413,10 +2009,6 @@
 		</dict>
 		<key>macos-arm64_x86_64/libharfbuzz.a</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WkNSNbfHqrJ646Q6eP7ZEyp2RoQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			80ZGIUC7OWWyKpp5fqj3lpaJfhsnnQ/Xlnba/k7bnAU=
@@ -2424,10 +2016,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/HarfBuzz-Module/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZE70oq1Mv5U5t1FOPIvFTdBhj6c=
-			</data>
 			<key>hash2</key>
 			<data>
 			nfh36/Ub2S6+qq31uoSORumJE+eA/yak1M6BmKyyHjw=
@@ -2435,10 +2023,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-aat-layout.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lg4nmJDFSPpCfRflwKCt1ie3G14=
-			</data>
 			<key>hash2</key>
 			<data>
 			GSYIVe/6Nl2rvqYFQ4E724jGeDWqNHt5cOQWkG8/85I=
@@ -2446,10 +2030,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-aat.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			axIPlZtV0XYOHDIBraHYH7SQYww=
-			</data>
 			<key>hash2</key>
 			<data>
 			vOEAk8rTnPvVNV12M2iyKgSuK+ySie8GQuX3Ur1uef8=
@@ -2457,10 +2037,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-blob.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			M9vbvYZ0oDAaoyuYO7Mbn1uuLQA=
-			</data>
 			<key>hash2</key>
 			<data>
 			cQ/gob47OjRBVJOb6b9swwZ09qvUrg/MDTFEuda5pr0=
@@ -2468,10 +2044,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-buffer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2eb1H6xsXbjXBrQQlBsed/VY3SQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			IqjyFd8E5hnXTgc/b3hJtlIxJ0psgHOY1QX31wpUGNc=
@@ -2479,10 +2051,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-common.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JsUSnR5KFQTvDxRmzh+YmjStQYE=
-			</data>
 			<key>hash2</key>
 			<data>
 			qNR2VGmFbWo06i+tWHZlza5quokiqYXrTXFe/OMCf3Q=
@@ -2490,10 +2058,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-cplusplus.hh</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uUVHfoD+rerPgaiXZHdpJjxGjro=
-			</data>
 			<key>hash2</key>
 			<data>
 			yHb8yYCqbJ4e5Zvs5XJPMgdvYNms+Zi+7aqFGemuzoo=
@@ -2501,10 +2065,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-deprecated.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JUvtQ2RW5fWFBM67GV3nDICEJHY=
-			</data>
 			<key>hash2</key>
 			<data>
 			0LMrU2GF/J7gQuU3G1gcMw+4cdVGp8indffW1jW337U=
@@ -2512,10 +2072,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-draw.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+DLFLG36QAjxCC/uWEKHq1F+S5A=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ecoal17AJiEgZJ6BZNMjqqTmUtrVO9h+sqiTVrhwbRs=
@@ -2523,10 +2079,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-face.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SdUVb/x8JfQKA9JZjsDiX/vWu28=
-			</data>
 			<key>hash2</key>
 			<data>
 			HmsXn5ewVcSKqt/jGtwgoJDPRjM259Ebg7g0Zn6I+dw=
@@ -2534,10 +2086,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-features.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jq1oL0swMUm3PeZxA2XRH8+d+2Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			YbbJf0fsP2jc6GMyIdVTDWXpxmR9Cbqtq95m2q6MAlM=
@@ -2545,10 +2093,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-font.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			POwRSFSJxJv+TF74vDdyx81HDsY=
-			</data>
 			<key>hash2</key>
 			<data>
 			p7DLhG48rYhXiiQ1SDv2T2sWTUpjpT5NeeYii8AFPnM=
@@ -2556,10 +2100,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-ft.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UhpfyORDgDRcTvZrALdLnBZQFNQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			5aEo3lgbrZHuxk6wV6Jtu0U5tgyvpgF9XKJXjP4N4+g=
@@ -2567,10 +2107,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-map.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			n5VJZcrRRi3ti8L8tRt/7XXseYU=
-			</data>
 			<key>hash2</key>
 			<data>
 			sHOqGXGOQ+NTXK7dwAFaTkWokDKnYFnMWrjz8NIgvs4=
@@ -2578,10 +2114,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-ot-color.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZIJ2xZ6nn61xtYs5p7egHrcPmCw=
-			</data>
 			<key>hash2</key>
 			<data>
 			MhalGqvl45YeLBGvhU3a1XRxAJzM2HkOLSbhjqofE5w=
@@ -2589,10 +2121,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-ot-deprecated.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xo7MNYehV5w6GHH/y/ZBrw9B908=
-			</data>
 			<key>hash2</key>
 			<data>
 			w6mHisBjPV5tfhaCERStRVVFimkkEAWB8NFv71coscQ=
@@ -2600,10 +2128,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-ot-font.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0TYcMUY1rmeaxDT/t3UGXoU8+aQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			5i0Xiqc++cgLCNPAdts+mbuMtOghnpeOeT73/+ll+PE=
@@ -2611,10 +2135,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-ot-layout.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Yco8SJN3wYMnPEGsvcP+/Q4kTiY=
-			</data>
 			<key>hash2</key>
 			<data>
 			oXi1QfBwUsl0cfSiOlhR1iS8re3XYzwa96IaLClPPI0=
@@ -2622,10 +2142,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-ot-math.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kK83g2YJQd6/x1MXGeAkbq9sbb4=
-			</data>
 			<key>hash2</key>
 			<data>
 			TnN+Xtncs9sYpkU0of8vr2OO9yDcMNsO6CEyQJlDL5A=
@@ -2633,10 +2149,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-ot-meta.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fpwdtop84E+SAv5R8we8rZnEJE0=
-			</data>
 			<key>hash2</key>
 			<data>
 			HTjJvLwNQX+Lfg6BjC9fm4PSq93Dny8RbMCuhBV6Vy0=
@@ -2644,10 +2156,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-ot-metrics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			E/SpHR5TfNMW5z6WEnFmhtb6FW0=
-			</data>
 			<key>hash2</key>
 			<data>
 			xlI58QBZDPGx9ke7pszRpUik6Jy4CXhgHKMFDpiE5yQ=
@@ -2655,10 +2163,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-ot-name.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uTmbqewWEATnGXZHmMRFVXvy0O0=
-			</data>
 			<key>hash2</key>
 			<data>
 			W+kkaH9xoPmBSbGYfz3j/XZu2ehMThRCUOlwSKNssaw=
@@ -2666,10 +2170,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-ot-shape.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QCkZWwgLXHu7JCIEPo0a7pw9sZ8=
-			</data>
 			<key>hash2</key>
 			<data>
 			XXQfmuZy1Lcark1gTtT+SpB3uExLKptG8TB/JHLoxN8=
@@ -2677,10 +2177,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-ot-var.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nwAVzCOjesflpZrjfQuhJbzCAiI=
-			</data>
 			<key>hash2</key>
 			<data>
 			nEOLw09Dr8yVw/XzkLkpkDFWr5PhlHP8KdqmUNmM8g4=
@@ -2688,10 +2184,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-ot.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sSijtq30e6gdk61SzjrR4QIbYss=
-			</data>
 			<key>hash2</key>
 			<data>
 			xcghxHdWdBuuegEh9EA5GijV4YiCRGnyKB3Qi4xlWhY=
@@ -2699,10 +2191,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-paint.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EqkX5AoYspf8zPl+oO+R+XpWI78=
-			</data>
 			<key>hash2</key>
 			<data>
 			qIRYgCcUvoi3lDLzJATZ5SBGbqGhmuQpKOj/NbCYMLw=
@@ -2710,10 +2198,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-script-list.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4jMv4/pIuvU3rQE1VNORbCsPO5k=
-			</data>
 			<key>hash2</key>
 			<data>
 			BifZ9qWaiwnlYuiur0FDAImTCHJTUL7rULYrhlc5lXY=
@@ -2721,10 +2205,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-set.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			l4sCTmOgzaYeSkCxPrVrPI50+tg=
-			</data>
 			<key>hash2</key>
 			<data>
 			DuNsGgkm5RuyoFBoeTDbRkuOcZ9YI82ToMliJrjMt4M=
@@ -2732,10 +2212,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-shape-plan.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			j71oGIrUtBzoM01FGGZWgsKqVXM=
-			</data>
 			<key>hash2</key>
 			<data>
 			A1VcglWPo0fpZUnsmWmPrnkMLPue55XF6kj/QTTgYiQ=
@@ -2743,10 +2219,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-shape.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/DnQwVA50DI50NzYI0cMMOLLDNQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ot/PUQhTvBGKEgt2M8Dk0VE05KxL33kRy4VRGIfn4yg=
@@ -2754,10 +2226,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-style.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zLIIDV9peD1SGWK94A69nOg9VyQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			boiuw65tsXazfk1giZI/eIWRNKJv0SsztAt3LpFnO1o=
@@ -2765,10 +2233,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-unicode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NFa5zLortuaUgLdTGejihn4zWek=
-			</data>
 			<key>hash2</key>
 			<data>
 			YTHw655BH6OSEB9YeT9OQ0fsO8b+RSJnNrGGAEzqgDg=
@@ -2776,10 +2240,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb-version.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sstGYn1GOxkDNtZy+HkUYC+1iWM=
-			</data>
 			<key>hash2</key>
 			<data>
 			hL8lp1fgM1coh1Hia49l25QU68Qt7PielM/mJ0y3qs0=
@@ -2787,10 +2247,6 @@
 		</dict>
 		<key>tvos-arm64/Headers/hb.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zAdP6NIgD5P0Ci+F+3U4AR0fZ8s=
-			</data>
 			<key>hash2</key>
 			<data>
 			MaG1PbPuQ5WRbm1PEFssZHcrgDe7uX0ObR5KkF62xsk=
@@ -2798,10 +2254,6 @@
 		</dict>
 		<key>tvos-arm64/libharfbuzz.a</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cvo+8/djT7+czYJMo9+VUMBbJwU=
-			</data>
 			<key>hash2</key>
 			<data>
 			aou8RajZpFTHusalFVEKPJ/wSc8bZry9RtwfKu4rT/A=
@@ -2809,10 +2261,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/HarfBuzz-Module/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZE70oq1Mv5U5t1FOPIvFTdBhj6c=
-			</data>
 			<key>hash2</key>
 			<data>
 			nfh36/Ub2S6+qq31uoSORumJE+eA/yak1M6BmKyyHjw=
@@ -2820,10 +2268,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-aat-layout.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lg4nmJDFSPpCfRflwKCt1ie3G14=
-			</data>
 			<key>hash2</key>
 			<data>
 			GSYIVe/6Nl2rvqYFQ4E724jGeDWqNHt5cOQWkG8/85I=
@@ -2831,10 +2275,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-aat.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			axIPlZtV0XYOHDIBraHYH7SQYww=
-			</data>
 			<key>hash2</key>
 			<data>
 			vOEAk8rTnPvVNV12M2iyKgSuK+ySie8GQuX3Ur1uef8=
@@ -2842,10 +2282,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-blob.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			M9vbvYZ0oDAaoyuYO7Mbn1uuLQA=
-			</data>
 			<key>hash2</key>
 			<data>
 			cQ/gob47OjRBVJOb6b9swwZ09qvUrg/MDTFEuda5pr0=
@@ -2853,10 +2289,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-buffer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2eb1H6xsXbjXBrQQlBsed/VY3SQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			IqjyFd8E5hnXTgc/b3hJtlIxJ0psgHOY1QX31wpUGNc=
@@ -2864,10 +2296,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-common.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JsUSnR5KFQTvDxRmzh+YmjStQYE=
-			</data>
 			<key>hash2</key>
 			<data>
 			qNR2VGmFbWo06i+tWHZlza5quokiqYXrTXFe/OMCf3Q=
@@ -2875,10 +2303,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-cplusplus.hh</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uUVHfoD+rerPgaiXZHdpJjxGjro=
-			</data>
 			<key>hash2</key>
 			<data>
 			yHb8yYCqbJ4e5Zvs5XJPMgdvYNms+Zi+7aqFGemuzoo=
@@ -2886,10 +2310,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-deprecated.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JUvtQ2RW5fWFBM67GV3nDICEJHY=
-			</data>
 			<key>hash2</key>
 			<data>
 			0LMrU2GF/J7gQuU3G1gcMw+4cdVGp8indffW1jW337U=
@@ -2897,10 +2317,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-draw.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+DLFLG36QAjxCC/uWEKHq1F+S5A=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ecoal17AJiEgZJ6BZNMjqqTmUtrVO9h+sqiTVrhwbRs=
@@ -2908,10 +2324,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-face.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SdUVb/x8JfQKA9JZjsDiX/vWu28=
-			</data>
 			<key>hash2</key>
 			<data>
 			HmsXn5ewVcSKqt/jGtwgoJDPRjM259Ebg7g0Zn6I+dw=
@@ -2919,10 +2331,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-features.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jq1oL0swMUm3PeZxA2XRH8+d+2Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			YbbJf0fsP2jc6GMyIdVTDWXpxmR9Cbqtq95m2q6MAlM=
@@ -2930,10 +2338,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-font.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			POwRSFSJxJv+TF74vDdyx81HDsY=
-			</data>
 			<key>hash2</key>
 			<data>
 			p7DLhG48rYhXiiQ1SDv2T2sWTUpjpT5NeeYii8AFPnM=
@@ -2941,10 +2345,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-ft.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UhpfyORDgDRcTvZrALdLnBZQFNQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			5aEo3lgbrZHuxk6wV6Jtu0U5tgyvpgF9XKJXjP4N4+g=
@@ -2952,10 +2352,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-map.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			n5VJZcrRRi3ti8L8tRt/7XXseYU=
-			</data>
 			<key>hash2</key>
 			<data>
 			sHOqGXGOQ+NTXK7dwAFaTkWokDKnYFnMWrjz8NIgvs4=
@@ -2963,10 +2359,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-ot-color.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZIJ2xZ6nn61xtYs5p7egHrcPmCw=
-			</data>
 			<key>hash2</key>
 			<data>
 			MhalGqvl45YeLBGvhU3a1XRxAJzM2HkOLSbhjqofE5w=
@@ -2974,10 +2366,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-ot-deprecated.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xo7MNYehV5w6GHH/y/ZBrw9B908=
-			</data>
 			<key>hash2</key>
 			<data>
 			w6mHisBjPV5tfhaCERStRVVFimkkEAWB8NFv71coscQ=
@@ -2985,10 +2373,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-ot-font.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0TYcMUY1rmeaxDT/t3UGXoU8+aQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			5i0Xiqc++cgLCNPAdts+mbuMtOghnpeOeT73/+ll+PE=
@@ -2996,10 +2380,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-ot-layout.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Yco8SJN3wYMnPEGsvcP+/Q4kTiY=
-			</data>
 			<key>hash2</key>
 			<data>
 			oXi1QfBwUsl0cfSiOlhR1iS8re3XYzwa96IaLClPPI0=
@@ -3007,10 +2387,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-ot-math.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kK83g2YJQd6/x1MXGeAkbq9sbb4=
-			</data>
 			<key>hash2</key>
 			<data>
 			TnN+Xtncs9sYpkU0of8vr2OO9yDcMNsO6CEyQJlDL5A=
@@ -3018,10 +2394,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-ot-meta.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fpwdtop84E+SAv5R8we8rZnEJE0=
-			</data>
 			<key>hash2</key>
 			<data>
 			HTjJvLwNQX+Lfg6BjC9fm4PSq93Dny8RbMCuhBV6Vy0=
@@ -3029,10 +2401,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-ot-metrics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			E/SpHR5TfNMW5z6WEnFmhtb6FW0=
-			</data>
 			<key>hash2</key>
 			<data>
 			xlI58QBZDPGx9ke7pszRpUik6Jy4CXhgHKMFDpiE5yQ=
@@ -3040,10 +2408,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-ot-name.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uTmbqewWEATnGXZHmMRFVXvy0O0=
-			</data>
 			<key>hash2</key>
 			<data>
 			W+kkaH9xoPmBSbGYfz3j/XZu2ehMThRCUOlwSKNssaw=
@@ -3051,10 +2415,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-ot-shape.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QCkZWwgLXHu7JCIEPo0a7pw9sZ8=
-			</data>
 			<key>hash2</key>
 			<data>
 			XXQfmuZy1Lcark1gTtT+SpB3uExLKptG8TB/JHLoxN8=
@@ -3062,10 +2422,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-ot-var.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nwAVzCOjesflpZrjfQuhJbzCAiI=
-			</data>
 			<key>hash2</key>
 			<data>
 			nEOLw09Dr8yVw/XzkLkpkDFWr5PhlHP8KdqmUNmM8g4=
@@ -3073,10 +2429,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-ot.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sSijtq30e6gdk61SzjrR4QIbYss=
-			</data>
 			<key>hash2</key>
 			<data>
 			xcghxHdWdBuuegEh9EA5GijV4YiCRGnyKB3Qi4xlWhY=
@@ -3084,10 +2436,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-paint.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EqkX5AoYspf8zPl+oO+R+XpWI78=
-			</data>
 			<key>hash2</key>
 			<data>
 			qIRYgCcUvoi3lDLzJATZ5SBGbqGhmuQpKOj/NbCYMLw=
@@ -3095,10 +2443,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-script-list.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4jMv4/pIuvU3rQE1VNORbCsPO5k=
-			</data>
 			<key>hash2</key>
 			<data>
 			BifZ9qWaiwnlYuiur0FDAImTCHJTUL7rULYrhlc5lXY=
@@ -3106,10 +2450,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-set.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			l4sCTmOgzaYeSkCxPrVrPI50+tg=
-			</data>
 			<key>hash2</key>
 			<data>
 			DuNsGgkm5RuyoFBoeTDbRkuOcZ9YI82ToMliJrjMt4M=
@@ -3117,10 +2457,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-shape-plan.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			j71oGIrUtBzoM01FGGZWgsKqVXM=
-			</data>
 			<key>hash2</key>
 			<data>
 			A1VcglWPo0fpZUnsmWmPrnkMLPue55XF6kj/QTTgYiQ=
@@ -3128,10 +2464,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-shape.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/DnQwVA50DI50NzYI0cMMOLLDNQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ot/PUQhTvBGKEgt2M8Dk0VE05KxL33kRy4VRGIfn4yg=
@@ -3139,10 +2471,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-style.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zLIIDV9peD1SGWK94A69nOg9VyQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			boiuw65tsXazfk1giZI/eIWRNKJv0SsztAt3LpFnO1o=
@@ -3150,10 +2478,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-unicode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NFa5zLortuaUgLdTGejihn4zWek=
-			</data>
 			<key>hash2</key>
 			<data>
 			YTHw655BH6OSEB9YeT9OQ0fsO8b+RSJnNrGGAEzqgDg=
@@ -3161,10 +2485,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb-version.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sstGYn1GOxkDNtZy+HkUYC+1iWM=
-			</data>
 			<key>hash2</key>
 			<data>
 			hL8lp1fgM1coh1Hia49l25QU68Qt7PielM/mJ0y3qs0=
@@ -3172,10 +2492,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/Headers/hb.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zAdP6NIgD5P0Ci+F+3U4AR0fZ8s=
-			</data>
 			<key>hash2</key>
 			<data>
 			MaG1PbPuQ5WRbm1PEFssZHcrgDe7uX0ObR5KkF62xsk=
@@ -3183,10 +2499,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/libharfbuzz.a</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yz2CJ3IkstQXZXy+iMNHqmN0y7Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			GSX2TSfFvXVeZtp+l++CbenZOKU4jvtySU44xAgTWB8=
@@ -3194,10 +2506,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/HarfBuzz-Module/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZE70oq1Mv5U5t1FOPIvFTdBhj6c=
-			</data>
 			<key>hash2</key>
 			<data>
 			nfh36/Ub2S6+qq31uoSORumJE+eA/yak1M6BmKyyHjw=
@@ -3205,10 +2513,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-aat-layout.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lg4nmJDFSPpCfRflwKCt1ie3G14=
-			</data>
 			<key>hash2</key>
 			<data>
 			GSYIVe/6Nl2rvqYFQ4E724jGeDWqNHt5cOQWkG8/85I=
@@ -3216,10 +2520,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-aat.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			axIPlZtV0XYOHDIBraHYH7SQYww=
-			</data>
 			<key>hash2</key>
 			<data>
 			vOEAk8rTnPvVNV12M2iyKgSuK+ySie8GQuX3Ur1uef8=
@@ -3227,10 +2527,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-blob.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			M9vbvYZ0oDAaoyuYO7Mbn1uuLQA=
-			</data>
 			<key>hash2</key>
 			<data>
 			cQ/gob47OjRBVJOb6b9swwZ09qvUrg/MDTFEuda5pr0=
@@ -3238,10 +2534,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-buffer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2eb1H6xsXbjXBrQQlBsed/VY3SQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			IqjyFd8E5hnXTgc/b3hJtlIxJ0psgHOY1QX31wpUGNc=
@@ -3249,10 +2541,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-common.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JsUSnR5KFQTvDxRmzh+YmjStQYE=
-			</data>
 			<key>hash2</key>
 			<data>
 			qNR2VGmFbWo06i+tWHZlza5quokiqYXrTXFe/OMCf3Q=
@@ -3260,10 +2548,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-cplusplus.hh</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uUVHfoD+rerPgaiXZHdpJjxGjro=
-			</data>
 			<key>hash2</key>
 			<data>
 			yHb8yYCqbJ4e5Zvs5XJPMgdvYNms+Zi+7aqFGemuzoo=
@@ -3271,10 +2555,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-deprecated.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JUvtQ2RW5fWFBM67GV3nDICEJHY=
-			</data>
 			<key>hash2</key>
 			<data>
 			0LMrU2GF/J7gQuU3G1gcMw+4cdVGp8indffW1jW337U=
@@ -3282,10 +2562,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-draw.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+DLFLG36QAjxCC/uWEKHq1F+S5A=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ecoal17AJiEgZJ6BZNMjqqTmUtrVO9h+sqiTVrhwbRs=
@@ -3293,10 +2569,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-face.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SdUVb/x8JfQKA9JZjsDiX/vWu28=
-			</data>
 			<key>hash2</key>
 			<data>
 			HmsXn5ewVcSKqt/jGtwgoJDPRjM259Ebg7g0Zn6I+dw=
@@ -3304,10 +2576,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-features.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jq1oL0swMUm3PeZxA2XRH8+d+2Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			YbbJf0fsP2jc6GMyIdVTDWXpxmR9Cbqtq95m2q6MAlM=
@@ -3315,10 +2583,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-font.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			POwRSFSJxJv+TF74vDdyx81HDsY=
-			</data>
 			<key>hash2</key>
 			<data>
 			p7DLhG48rYhXiiQ1SDv2T2sWTUpjpT5NeeYii8AFPnM=
@@ -3326,10 +2590,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-ft.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UhpfyORDgDRcTvZrALdLnBZQFNQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			5aEo3lgbrZHuxk6wV6Jtu0U5tgyvpgF9XKJXjP4N4+g=
@@ -3337,10 +2597,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-map.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			n5VJZcrRRi3ti8L8tRt/7XXseYU=
-			</data>
 			<key>hash2</key>
 			<data>
 			sHOqGXGOQ+NTXK7dwAFaTkWokDKnYFnMWrjz8NIgvs4=
@@ -3348,10 +2604,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-ot-color.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZIJ2xZ6nn61xtYs5p7egHrcPmCw=
-			</data>
 			<key>hash2</key>
 			<data>
 			MhalGqvl45YeLBGvhU3a1XRxAJzM2HkOLSbhjqofE5w=
@@ -3359,10 +2611,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-ot-deprecated.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xo7MNYehV5w6GHH/y/ZBrw9B908=
-			</data>
 			<key>hash2</key>
 			<data>
 			w6mHisBjPV5tfhaCERStRVVFimkkEAWB8NFv71coscQ=
@@ -3370,10 +2618,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-ot-font.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0TYcMUY1rmeaxDT/t3UGXoU8+aQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			5i0Xiqc++cgLCNPAdts+mbuMtOghnpeOeT73/+ll+PE=
@@ -3381,10 +2625,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-ot-layout.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Yco8SJN3wYMnPEGsvcP+/Q4kTiY=
-			</data>
 			<key>hash2</key>
 			<data>
 			oXi1QfBwUsl0cfSiOlhR1iS8re3XYzwa96IaLClPPI0=
@@ -3392,10 +2632,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-ot-math.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kK83g2YJQd6/x1MXGeAkbq9sbb4=
-			</data>
 			<key>hash2</key>
 			<data>
 			TnN+Xtncs9sYpkU0of8vr2OO9yDcMNsO6CEyQJlDL5A=
@@ -3403,10 +2639,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-ot-meta.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fpwdtop84E+SAv5R8we8rZnEJE0=
-			</data>
 			<key>hash2</key>
 			<data>
 			HTjJvLwNQX+Lfg6BjC9fm4PSq93Dny8RbMCuhBV6Vy0=
@@ -3414,10 +2646,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-ot-metrics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			E/SpHR5TfNMW5z6WEnFmhtb6FW0=
-			</data>
 			<key>hash2</key>
 			<data>
 			xlI58QBZDPGx9ke7pszRpUik6Jy4CXhgHKMFDpiE5yQ=
@@ -3425,10 +2653,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-ot-name.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uTmbqewWEATnGXZHmMRFVXvy0O0=
-			</data>
 			<key>hash2</key>
 			<data>
 			W+kkaH9xoPmBSbGYfz3j/XZu2ehMThRCUOlwSKNssaw=
@@ -3436,10 +2660,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-ot-shape.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QCkZWwgLXHu7JCIEPo0a7pw9sZ8=
-			</data>
 			<key>hash2</key>
 			<data>
 			XXQfmuZy1Lcark1gTtT+SpB3uExLKptG8TB/JHLoxN8=
@@ -3447,10 +2667,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-ot-var.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nwAVzCOjesflpZrjfQuhJbzCAiI=
-			</data>
 			<key>hash2</key>
 			<data>
 			nEOLw09Dr8yVw/XzkLkpkDFWr5PhlHP8KdqmUNmM8g4=
@@ -3458,10 +2674,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-ot.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sSijtq30e6gdk61SzjrR4QIbYss=
-			</data>
 			<key>hash2</key>
 			<data>
 			xcghxHdWdBuuegEh9EA5GijV4YiCRGnyKB3Qi4xlWhY=
@@ -3469,10 +2681,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-paint.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EqkX5AoYspf8zPl+oO+R+XpWI78=
-			</data>
 			<key>hash2</key>
 			<data>
 			qIRYgCcUvoi3lDLzJATZ5SBGbqGhmuQpKOj/NbCYMLw=
@@ -3480,10 +2688,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-script-list.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4jMv4/pIuvU3rQE1VNORbCsPO5k=
-			</data>
 			<key>hash2</key>
 			<data>
 			BifZ9qWaiwnlYuiur0FDAImTCHJTUL7rULYrhlc5lXY=
@@ -3491,10 +2695,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-set.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			l4sCTmOgzaYeSkCxPrVrPI50+tg=
-			</data>
 			<key>hash2</key>
 			<data>
 			DuNsGgkm5RuyoFBoeTDbRkuOcZ9YI82ToMliJrjMt4M=
@@ -3502,10 +2702,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-shape-plan.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			j71oGIrUtBzoM01FGGZWgsKqVXM=
-			</data>
 			<key>hash2</key>
 			<data>
 			A1VcglWPo0fpZUnsmWmPrnkMLPue55XF6kj/QTTgYiQ=
@@ -3513,10 +2709,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-shape.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/DnQwVA50DI50NzYI0cMMOLLDNQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ot/PUQhTvBGKEgt2M8Dk0VE05KxL33kRy4VRGIfn4yg=
@@ -3524,10 +2716,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-style.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zLIIDV9peD1SGWK94A69nOg9VyQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			boiuw65tsXazfk1giZI/eIWRNKJv0SsztAt3LpFnO1o=
@@ -3535,10 +2723,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-unicode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NFa5zLortuaUgLdTGejihn4zWek=
-			</data>
 			<key>hash2</key>
 			<data>
 			YTHw655BH6OSEB9YeT9OQ0fsO8b+RSJnNrGGAEzqgDg=
@@ -3546,10 +2730,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb-version.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sstGYn1GOxkDNtZy+HkUYC+1iWM=
-			</data>
 			<key>hash2</key>
 			<data>
 			hL8lp1fgM1coh1Hia49l25QU68Qt7PielM/mJ0y3qs0=
@@ -3557,10 +2737,6 @@
 		</dict>
 		<key>watchos-arm64/Headers/hb.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zAdP6NIgD5P0Ci+F+3U4AR0fZ8s=
-			</data>
 			<key>hash2</key>
 			<data>
 			MaG1PbPuQ5WRbm1PEFssZHcrgDe7uX0ObR5KkF62xsk=
@@ -3568,10 +2744,6 @@
 		</dict>
 		<key>watchos-arm64/libharfbuzz.a</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NXv8zRwqN/irauq8Q1Gvt4UAHlI=
-			</data>
 			<key>hash2</key>
 			<data>
 			oJblaoeNlDv2tbp4G9lKKNADmQWe+EbO0oH5fBi40ds=
@@ -3579,10 +2751,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/HarfBuzz-Module/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZE70oq1Mv5U5t1FOPIvFTdBhj6c=
-			</data>
 			<key>hash2</key>
 			<data>
 			nfh36/Ub2S6+qq31uoSORumJE+eA/yak1M6BmKyyHjw=
@@ -3590,10 +2758,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-aat-layout.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lg4nmJDFSPpCfRflwKCt1ie3G14=
-			</data>
 			<key>hash2</key>
 			<data>
 			GSYIVe/6Nl2rvqYFQ4E724jGeDWqNHt5cOQWkG8/85I=
@@ -3601,10 +2765,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-aat.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			axIPlZtV0XYOHDIBraHYH7SQYww=
-			</data>
 			<key>hash2</key>
 			<data>
 			vOEAk8rTnPvVNV12M2iyKgSuK+ySie8GQuX3Ur1uef8=
@@ -3612,10 +2772,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-blob.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			M9vbvYZ0oDAaoyuYO7Mbn1uuLQA=
-			</data>
 			<key>hash2</key>
 			<data>
 			cQ/gob47OjRBVJOb6b9swwZ09qvUrg/MDTFEuda5pr0=
@@ -3623,10 +2779,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-buffer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2eb1H6xsXbjXBrQQlBsed/VY3SQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			IqjyFd8E5hnXTgc/b3hJtlIxJ0psgHOY1QX31wpUGNc=
@@ -3634,10 +2786,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-common.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JsUSnR5KFQTvDxRmzh+YmjStQYE=
-			</data>
 			<key>hash2</key>
 			<data>
 			qNR2VGmFbWo06i+tWHZlza5quokiqYXrTXFe/OMCf3Q=
@@ -3645,10 +2793,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-cplusplus.hh</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uUVHfoD+rerPgaiXZHdpJjxGjro=
-			</data>
 			<key>hash2</key>
 			<data>
 			yHb8yYCqbJ4e5Zvs5XJPMgdvYNms+Zi+7aqFGemuzoo=
@@ -3656,10 +2800,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-deprecated.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JUvtQ2RW5fWFBM67GV3nDICEJHY=
-			</data>
 			<key>hash2</key>
 			<data>
 			0LMrU2GF/J7gQuU3G1gcMw+4cdVGp8indffW1jW337U=
@@ -3667,10 +2807,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-draw.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+DLFLG36QAjxCC/uWEKHq1F+S5A=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ecoal17AJiEgZJ6BZNMjqqTmUtrVO9h+sqiTVrhwbRs=
@@ -3678,10 +2814,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-face.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SdUVb/x8JfQKA9JZjsDiX/vWu28=
-			</data>
 			<key>hash2</key>
 			<data>
 			HmsXn5ewVcSKqt/jGtwgoJDPRjM259Ebg7g0Zn6I+dw=
@@ -3689,10 +2821,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-features.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jq1oL0swMUm3PeZxA2XRH8+d+2Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			YbbJf0fsP2jc6GMyIdVTDWXpxmR9Cbqtq95m2q6MAlM=
@@ -3700,10 +2828,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-font.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			POwRSFSJxJv+TF74vDdyx81HDsY=
-			</data>
 			<key>hash2</key>
 			<data>
 			p7DLhG48rYhXiiQ1SDv2T2sWTUpjpT5NeeYii8AFPnM=
@@ -3711,10 +2835,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-ft.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UhpfyORDgDRcTvZrALdLnBZQFNQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			5aEo3lgbrZHuxk6wV6Jtu0U5tgyvpgF9XKJXjP4N4+g=
@@ -3722,10 +2842,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-map.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			n5VJZcrRRi3ti8L8tRt/7XXseYU=
-			</data>
 			<key>hash2</key>
 			<data>
 			sHOqGXGOQ+NTXK7dwAFaTkWokDKnYFnMWrjz8NIgvs4=
@@ -3733,10 +2849,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-ot-color.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZIJ2xZ6nn61xtYs5p7egHrcPmCw=
-			</data>
 			<key>hash2</key>
 			<data>
 			MhalGqvl45YeLBGvhU3a1XRxAJzM2HkOLSbhjqofE5w=
@@ -3744,10 +2856,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-ot-deprecated.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xo7MNYehV5w6GHH/y/ZBrw9B908=
-			</data>
 			<key>hash2</key>
 			<data>
 			w6mHisBjPV5tfhaCERStRVVFimkkEAWB8NFv71coscQ=
@@ -3755,10 +2863,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-ot-font.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0TYcMUY1rmeaxDT/t3UGXoU8+aQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			5i0Xiqc++cgLCNPAdts+mbuMtOghnpeOeT73/+ll+PE=
@@ -3766,10 +2870,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-ot-layout.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Yco8SJN3wYMnPEGsvcP+/Q4kTiY=
-			</data>
 			<key>hash2</key>
 			<data>
 			oXi1QfBwUsl0cfSiOlhR1iS8re3XYzwa96IaLClPPI0=
@@ -3777,10 +2877,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-ot-math.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kK83g2YJQd6/x1MXGeAkbq9sbb4=
-			</data>
 			<key>hash2</key>
 			<data>
 			TnN+Xtncs9sYpkU0of8vr2OO9yDcMNsO6CEyQJlDL5A=
@@ -3788,10 +2884,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-ot-meta.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fpwdtop84E+SAv5R8we8rZnEJE0=
-			</data>
 			<key>hash2</key>
 			<data>
 			HTjJvLwNQX+Lfg6BjC9fm4PSq93Dny8RbMCuhBV6Vy0=
@@ -3799,10 +2891,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-ot-metrics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			E/SpHR5TfNMW5z6WEnFmhtb6FW0=
-			</data>
 			<key>hash2</key>
 			<data>
 			xlI58QBZDPGx9ke7pszRpUik6Jy4CXhgHKMFDpiE5yQ=
@@ -3810,10 +2898,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-ot-name.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uTmbqewWEATnGXZHmMRFVXvy0O0=
-			</data>
 			<key>hash2</key>
 			<data>
 			W+kkaH9xoPmBSbGYfz3j/XZu2ehMThRCUOlwSKNssaw=
@@ -3821,10 +2905,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-ot-shape.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QCkZWwgLXHu7JCIEPo0a7pw9sZ8=
-			</data>
 			<key>hash2</key>
 			<data>
 			XXQfmuZy1Lcark1gTtT+SpB3uExLKptG8TB/JHLoxN8=
@@ -3832,10 +2912,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-ot-var.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nwAVzCOjesflpZrjfQuhJbzCAiI=
-			</data>
 			<key>hash2</key>
 			<data>
 			nEOLw09Dr8yVw/XzkLkpkDFWr5PhlHP8KdqmUNmM8g4=
@@ -3843,10 +2919,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-ot.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sSijtq30e6gdk61SzjrR4QIbYss=
-			</data>
 			<key>hash2</key>
 			<data>
 			xcghxHdWdBuuegEh9EA5GijV4YiCRGnyKB3Qi4xlWhY=
@@ -3854,10 +2926,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-paint.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EqkX5AoYspf8zPl+oO+R+XpWI78=
-			</data>
 			<key>hash2</key>
 			<data>
 			qIRYgCcUvoi3lDLzJATZ5SBGbqGhmuQpKOj/NbCYMLw=
@@ -3865,10 +2933,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-script-list.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4jMv4/pIuvU3rQE1VNORbCsPO5k=
-			</data>
 			<key>hash2</key>
 			<data>
 			BifZ9qWaiwnlYuiur0FDAImTCHJTUL7rULYrhlc5lXY=
@@ -3876,10 +2940,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-set.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			l4sCTmOgzaYeSkCxPrVrPI50+tg=
-			</data>
 			<key>hash2</key>
 			<data>
 			DuNsGgkm5RuyoFBoeTDbRkuOcZ9YI82ToMliJrjMt4M=
@@ -3887,10 +2947,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-shape-plan.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			j71oGIrUtBzoM01FGGZWgsKqVXM=
-			</data>
 			<key>hash2</key>
 			<data>
 			A1VcglWPo0fpZUnsmWmPrnkMLPue55XF6kj/QTTgYiQ=
@@ -3898,10 +2954,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-shape.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/DnQwVA50DI50NzYI0cMMOLLDNQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ot/PUQhTvBGKEgt2M8Dk0VE05KxL33kRy4VRGIfn4yg=
@@ -3909,10 +2961,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-style.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zLIIDV9peD1SGWK94A69nOg9VyQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			boiuw65tsXazfk1giZI/eIWRNKJv0SsztAt3LpFnO1o=
@@ -3920,10 +2968,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-unicode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NFa5zLortuaUgLdTGejihn4zWek=
-			</data>
 			<key>hash2</key>
 			<data>
 			YTHw655BH6OSEB9YeT9OQ0fsO8b+RSJnNrGGAEzqgDg=
@@ -3931,10 +2975,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb-version.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sstGYn1GOxkDNtZy+HkUYC+1iWM=
-			</data>
 			<key>hash2</key>
 			<data>
 			hL8lp1fgM1coh1Hia49l25QU68Qt7PielM/mJ0y3qs0=
@@ -3942,10 +2982,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/Headers/hb.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zAdP6NIgD5P0Ci+F+3U4AR0fZ8s=
-			</data>
 			<key>hash2</key>
 			<data>
 			MaG1PbPuQ5WRbm1PEFssZHcrgDe7uX0ObR5KkF62xsk=
@@ -3953,10 +2989,6 @@
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/libharfbuzz.a</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			aAXpbdyEunY8dzfph6NXVO74Jgk=
-			</data>
 			<key>hash2</key>
 			<data>
 			60fmtUV2rsOvcezVc0m4KFOLujnoDhnND6beV3bKEyc=
@@ -3964,10 +2996,6 @@
 		</dict>
 		<key>xros-arm64/Headers/HarfBuzz-Module/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZE70oq1Mv5U5t1FOPIvFTdBhj6c=
-			</data>
 			<key>hash2</key>
 			<data>
 			nfh36/Ub2S6+qq31uoSORumJE+eA/yak1M6BmKyyHjw=
@@ -3975,10 +3003,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-aat-layout.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lg4nmJDFSPpCfRflwKCt1ie3G14=
-			</data>
 			<key>hash2</key>
 			<data>
 			GSYIVe/6Nl2rvqYFQ4E724jGeDWqNHt5cOQWkG8/85I=
@@ -3986,10 +3010,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-aat.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			axIPlZtV0XYOHDIBraHYH7SQYww=
-			</data>
 			<key>hash2</key>
 			<data>
 			vOEAk8rTnPvVNV12M2iyKgSuK+ySie8GQuX3Ur1uef8=
@@ -3997,10 +3017,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-blob.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			M9vbvYZ0oDAaoyuYO7Mbn1uuLQA=
-			</data>
 			<key>hash2</key>
 			<data>
 			cQ/gob47OjRBVJOb6b9swwZ09qvUrg/MDTFEuda5pr0=
@@ -4008,10 +3024,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-buffer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2eb1H6xsXbjXBrQQlBsed/VY3SQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			IqjyFd8E5hnXTgc/b3hJtlIxJ0psgHOY1QX31wpUGNc=
@@ -4019,10 +3031,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-common.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JsUSnR5KFQTvDxRmzh+YmjStQYE=
-			</data>
 			<key>hash2</key>
 			<data>
 			qNR2VGmFbWo06i+tWHZlza5quokiqYXrTXFe/OMCf3Q=
@@ -4030,10 +3038,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-cplusplus.hh</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uUVHfoD+rerPgaiXZHdpJjxGjro=
-			</data>
 			<key>hash2</key>
 			<data>
 			yHb8yYCqbJ4e5Zvs5XJPMgdvYNms+Zi+7aqFGemuzoo=
@@ -4041,10 +3045,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-deprecated.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JUvtQ2RW5fWFBM67GV3nDICEJHY=
-			</data>
 			<key>hash2</key>
 			<data>
 			0LMrU2GF/J7gQuU3G1gcMw+4cdVGp8indffW1jW337U=
@@ -4052,10 +3052,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-draw.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+DLFLG36QAjxCC/uWEKHq1F+S5A=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ecoal17AJiEgZJ6BZNMjqqTmUtrVO9h+sqiTVrhwbRs=
@@ -4063,10 +3059,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-face.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SdUVb/x8JfQKA9JZjsDiX/vWu28=
-			</data>
 			<key>hash2</key>
 			<data>
 			HmsXn5ewVcSKqt/jGtwgoJDPRjM259Ebg7g0Zn6I+dw=
@@ -4074,10 +3066,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-features.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jq1oL0swMUm3PeZxA2XRH8+d+2Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			YbbJf0fsP2jc6GMyIdVTDWXpxmR9Cbqtq95m2q6MAlM=
@@ -4085,10 +3073,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-font.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			POwRSFSJxJv+TF74vDdyx81HDsY=
-			</data>
 			<key>hash2</key>
 			<data>
 			p7DLhG48rYhXiiQ1SDv2T2sWTUpjpT5NeeYii8AFPnM=
@@ -4096,10 +3080,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-ft.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UhpfyORDgDRcTvZrALdLnBZQFNQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			5aEo3lgbrZHuxk6wV6Jtu0U5tgyvpgF9XKJXjP4N4+g=
@@ -4107,10 +3087,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-map.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			n5VJZcrRRi3ti8L8tRt/7XXseYU=
-			</data>
 			<key>hash2</key>
 			<data>
 			sHOqGXGOQ+NTXK7dwAFaTkWokDKnYFnMWrjz8NIgvs4=
@@ -4118,10 +3094,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-ot-color.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZIJ2xZ6nn61xtYs5p7egHrcPmCw=
-			</data>
 			<key>hash2</key>
 			<data>
 			MhalGqvl45YeLBGvhU3a1XRxAJzM2HkOLSbhjqofE5w=
@@ -4129,10 +3101,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-ot-deprecated.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xo7MNYehV5w6GHH/y/ZBrw9B908=
-			</data>
 			<key>hash2</key>
 			<data>
 			w6mHisBjPV5tfhaCERStRVVFimkkEAWB8NFv71coscQ=
@@ -4140,10 +3108,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-ot-font.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0TYcMUY1rmeaxDT/t3UGXoU8+aQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			5i0Xiqc++cgLCNPAdts+mbuMtOghnpeOeT73/+ll+PE=
@@ -4151,10 +3115,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-ot-layout.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Yco8SJN3wYMnPEGsvcP+/Q4kTiY=
-			</data>
 			<key>hash2</key>
 			<data>
 			oXi1QfBwUsl0cfSiOlhR1iS8re3XYzwa96IaLClPPI0=
@@ -4162,10 +3122,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-ot-math.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kK83g2YJQd6/x1MXGeAkbq9sbb4=
-			</data>
 			<key>hash2</key>
 			<data>
 			TnN+Xtncs9sYpkU0of8vr2OO9yDcMNsO6CEyQJlDL5A=
@@ -4173,10 +3129,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-ot-meta.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fpwdtop84E+SAv5R8we8rZnEJE0=
-			</data>
 			<key>hash2</key>
 			<data>
 			HTjJvLwNQX+Lfg6BjC9fm4PSq93Dny8RbMCuhBV6Vy0=
@@ -4184,10 +3136,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-ot-metrics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			E/SpHR5TfNMW5z6WEnFmhtb6FW0=
-			</data>
 			<key>hash2</key>
 			<data>
 			xlI58QBZDPGx9ke7pszRpUik6Jy4CXhgHKMFDpiE5yQ=
@@ -4195,10 +3143,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-ot-name.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uTmbqewWEATnGXZHmMRFVXvy0O0=
-			</data>
 			<key>hash2</key>
 			<data>
 			W+kkaH9xoPmBSbGYfz3j/XZu2ehMThRCUOlwSKNssaw=
@@ -4206,10 +3150,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-ot-shape.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QCkZWwgLXHu7JCIEPo0a7pw9sZ8=
-			</data>
 			<key>hash2</key>
 			<data>
 			XXQfmuZy1Lcark1gTtT+SpB3uExLKptG8TB/JHLoxN8=
@@ -4217,10 +3157,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-ot-var.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nwAVzCOjesflpZrjfQuhJbzCAiI=
-			</data>
 			<key>hash2</key>
 			<data>
 			nEOLw09Dr8yVw/XzkLkpkDFWr5PhlHP8KdqmUNmM8g4=
@@ -4228,10 +3164,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-ot.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sSijtq30e6gdk61SzjrR4QIbYss=
-			</data>
 			<key>hash2</key>
 			<data>
 			xcghxHdWdBuuegEh9EA5GijV4YiCRGnyKB3Qi4xlWhY=
@@ -4239,10 +3171,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-paint.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EqkX5AoYspf8zPl+oO+R+XpWI78=
-			</data>
 			<key>hash2</key>
 			<data>
 			qIRYgCcUvoi3lDLzJATZ5SBGbqGhmuQpKOj/NbCYMLw=
@@ -4250,10 +3178,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-script-list.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4jMv4/pIuvU3rQE1VNORbCsPO5k=
-			</data>
 			<key>hash2</key>
 			<data>
 			BifZ9qWaiwnlYuiur0FDAImTCHJTUL7rULYrhlc5lXY=
@@ -4261,10 +3185,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-set.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			l4sCTmOgzaYeSkCxPrVrPI50+tg=
-			</data>
 			<key>hash2</key>
 			<data>
 			DuNsGgkm5RuyoFBoeTDbRkuOcZ9YI82ToMliJrjMt4M=
@@ -4272,10 +3192,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-shape-plan.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			j71oGIrUtBzoM01FGGZWgsKqVXM=
-			</data>
 			<key>hash2</key>
 			<data>
 			A1VcglWPo0fpZUnsmWmPrnkMLPue55XF6kj/QTTgYiQ=
@@ -4283,10 +3199,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-shape.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/DnQwVA50DI50NzYI0cMMOLLDNQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ot/PUQhTvBGKEgt2M8Dk0VE05KxL33kRy4VRGIfn4yg=
@@ -4294,10 +3206,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-style.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zLIIDV9peD1SGWK94A69nOg9VyQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			boiuw65tsXazfk1giZI/eIWRNKJv0SsztAt3LpFnO1o=
@@ -4305,10 +3213,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-unicode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NFa5zLortuaUgLdTGejihn4zWek=
-			</data>
 			<key>hash2</key>
 			<data>
 			YTHw655BH6OSEB9YeT9OQ0fsO8b+RSJnNrGGAEzqgDg=
@@ -4316,10 +3220,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb-version.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sstGYn1GOxkDNtZy+HkUYC+1iWM=
-			</data>
 			<key>hash2</key>
 			<data>
 			hL8lp1fgM1coh1Hia49l25QU68Qt7PielM/mJ0y3qs0=
@@ -4327,10 +3227,6 @@
 		</dict>
 		<key>xros-arm64/Headers/hb.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zAdP6NIgD5P0Ci+F+3U4AR0fZ8s=
-			</data>
 			<key>hash2</key>
 			<data>
 			MaG1PbPuQ5WRbm1PEFssZHcrgDe7uX0ObR5KkF62xsk=
@@ -4338,10 +3234,6 @@
 		</dict>
 		<key>xros-arm64/libharfbuzz.a</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9Y/4eiUjc8Yr0NTsBmBi2RZeOvc=
-			</data>
 			<key>hash2</key>
 			<data>
 			EKIPdUbjozRJr6y6Jg0aJ8ZgWFsXfoctP3GLWl3cPTo=
@@ -4349,10 +3241,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/HarfBuzz-Module/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZE70oq1Mv5U5t1FOPIvFTdBhj6c=
-			</data>
 			<key>hash2</key>
 			<data>
 			nfh36/Ub2S6+qq31uoSORumJE+eA/yak1M6BmKyyHjw=
@@ -4360,10 +3248,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-aat-layout.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lg4nmJDFSPpCfRflwKCt1ie3G14=
-			</data>
 			<key>hash2</key>
 			<data>
 			GSYIVe/6Nl2rvqYFQ4E724jGeDWqNHt5cOQWkG8/85I=
@@ -4371,10 +3255,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-aat.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			axIPlZtV0XYOHDIBraHYH7SQYww=
-			</data>
 			<key>hash2</key>
 			<data>
 			vOEAk8rTnPvVNV12M2iyKgSuK+ySie8GQuX3Ur1uef8=
@@ -4382,10 +3262,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-blob.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			M9vbvYZ0oDAaoyuYO7Mbn1uuLQA=
-			</data>
 			<key>hash2</key>
 			<data>
 			cQ/gob47OjRBVJOb6b9swwZ09qvUrg/MDTFEuda5pr0=
@@ -4393,10 +3269,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-buffer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2eb1H6xsXbjXBrQQlBsed/VY3SQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			IqjyFd8E5hnXTgc/b3hJtlIxJ0psgHOY1QX31wpUGNc=
@@ -4404,10 +3276,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-common.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JsUSnR5KFQTvDxRmzh+YmjStQYE=
-			</data>
 			<key>hash2</key>
 			<data>
 			qNR2VGmFbWo06i+tWHZlza5quokiqYXrTXFe/OMCf3Q=
@@ -4415,10 +3283,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-cplusplus.hh</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uUVHfoD+rerPgaiXZHdpJjxGjro=
-			</data>
 			<key>hash2</key>
 			<data>
 			yHb8yYCqbJ4e5Zvs5XJPMgdvYNms+Zi+7aqFGemuzoo=
@@ -4426,10 +3290,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-deprecated.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JUvtQ2RW5fWFBM67GV3nDICEJHY=
-			</data>
 			<key>hash2</key>
 			<data>
 			0LMrU2GF/J7gQuU3G1gcMw+4cdVGp8indffW1jW337U=
@@ -4437,10 +3297,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-draw.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+DLFLG36QAjxCC/uWEKHq1F+S5A=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ecoal17AJiEgZJ6BZNMjqqTmUtrVO9h+sqiTVrhwbRs=
@@ -4448,10 +3304,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-face.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SdUVb/x8JfQKA9JZjsDiX/vWu28=
-			</data>
 			<key>hash2</key>
 			<data>
 			HmsXn5ewVcSKqt/jGtwgoJDPRjM259Ebg7g0Zn6I+dw=
@@ -4459,10 +3311,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-features.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jq1oL0swMUm3PeZxA2XRH8+d+2Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			YbbJf0fsP2jc6GMyIdVTDWXpxmR9Cbqtq95m2q6MAlM=
@@ -4470,10 +3318,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-font.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			POwRSFSJxJv+TF74vDdyx81HDsY=
-			</data>
 			<key>hash2</key>
 			<data>
 			p7DLhG48rYhXiiQ1SDv2T2sWTUpjpT5NeeYii8AFPnM=
@@ -4481,10 +3325,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-ft.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UhpfyORDgDRcTvZrALdLnBZQFNQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			5aEo3lgbrZHuxk6wV6Jtu0U5tgyvpgF9XKJXjP4N4+g=
@@ -4492,10 +3332,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-map.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			n5VJZcrRRi3ti8L8tRt/7XXseYU=
-			</data>
 			<key>hash2</key>
 			<data>
 			sHOqGXGOQ+NTXK7dwAFaTkWokDKnYFnMWrjz8NIgvs4=
@@ -4503,10 +3339,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-ot-color.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZIJ2xZ6nn61xtYs5p7egHrcPmCw=
-			</data>
 			<key>hash2</key>
 			<data>
 			MhalGqvl45YeLBGvhU3a1XRxAJzM2HkOLSbhjqofE5w=
@@ -4514,10 +3346,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-ot-deprecated.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xo7MNYehV5w6GHH/y/ZBrw9B908=
-			</data>
 			<key>hash2</key>
 			<data>
 			w6mHisBjPV5tfhaCERStRVVFimkkEAWB8NFv71coscQ=
@@ -4525,10 +3353,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-ot-font.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0TYcMUY1rmeaxDT/t3UGXoU8+aQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			5i0Xiqc++cgLCNPAdts+mbuMtOghnpeOeT73/+ll+PE=
@@ -4536,10 +3360,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-ot-layout.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Yco8SJN3wYMnPEGsvcP+/Q4kTiY=
-			</data>
 			<key>hash2</key>
 			<data>
 			oXi1QfBwUsl0cfSiOlhR1iS8re3XYzwa96IaLClPPI0=
@@ -4547,10 +3367,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-ot-math.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kK83g2YJQd6/x1MXGeAkbq9sbb4=
-			</data>
 			<key>hash2</key>
 			<data>
 			TnN+Xtncs9sYpkU0of8vr2OO9yDcMNsO6CEyQJlDL5A=
@@ -4558,10 +3374,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-ot-meta.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fpwdtop84E+SAv5R8we8rZnEJE0=
-			</data>
 			<key>hash2</key>
 			<data>
 			HTjJvLwNQX+Lfg6BjC9fm4PSq93Dny8RbMCuhBV6Vy0=
@@ -4569,10 +3381,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-ot-metrics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			E/SpHR5TfNMW5z6WEnFmhtb6FW0=
-			</data>
 			<key>hash2</key>
 			<data>
 			xlI58QBZDPGx9ke7pszRpUik6Jy4CXhgHKMFDpiE5yQ=
@@ -4580,10 +3388,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-ot-name.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uTmbqewWEATnGXZHmMRFVXvy0O0=
-			</data>
 			<key>hash2</key>
 			<data>
 			W+kkaH9xoPmBSbGYfz3j/XZu2ehMThRCUOlwSKNssaw=
@@ -4591,10 +3395,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-ot-shape.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QCkZWwgLXHu7JCIEPo0a7pw9sZ8=
-			</data>
 			<key>hash2</key>
 			<data>
 			XXQfmuZy1Lcark1gTtT+SpB3uExLKptG8TB/JHLoxN8=
@@ -4602,10 +3402,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-ot-var.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nwAVzCOjesflpZrjfQuhJbzCAiI=
-			</data>
 			<key>hash2</key>
 			<data>
 			nEOLw09Dr8yVw/XzkLkpkDFWr5PhlHP8KdqmUNmM8g4=
@@ -4613,10 +3409,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-ot.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sSijtq30e6gdk61SzjrR4QIbYss=
-			</data>
 			<key>hash2</key>
 			<data>
 			xcghxHdWdBuuegEh9EA5GijV4YiCRGnyKB3Qi4xlWhY=
@@ -4624,10 +3416,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-paint.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EqkX5AoYspf8zPl+oO+R+XpWI78=
-			</data>
 			<key>hash2</key>
 			<data>
 			qIRYgCcUvoi3lDLzJATZ5SBGbqGhmuQpKOj/NbCYMLw=
@@ -4635,10 +3423,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-script-list.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4jMv4/pIuvU3rQE1VNORbCsPO5k=
-			</data>
 			<key>hash2</key>
 			<data>
 			BifZ9qWaiwnlYuiur0FDAImTCHJTUL7rULYrhlc5lXY=
@@ -4646,10 +3430,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-set.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			l4sCTmOgzaYeSkCxPrVrPI50+tg=
-			</data>
 			<key>hash2</key>
 			<data>
 			DuNsGgkm5RuyoFBoeTDbRkuOcZ9YI82ToMliJrjMt4M=
@@ -4657,10 +3437,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-shape-plan.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			j71oGIrUtBzoM01FGGZWgsKqVXM=
-			</data>
 			<key>hash2</key>
 			<data>
 			A1VcglWPo0fpZUnsmWmPrnkMLPue55XF6kj/QTTgYiQ=
@@ -4668,10 +3444,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-shape.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/DnQwVA50DI50NzYI0cMMOLLDNQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ot/PUQhTvBGKEgt2M8Dk0VE05KxL33kRy4VRGIfn4yg=
@@ -4679,10 +3451,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-style.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zLIIDV9peD1SGWK94A69nOg9VyQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			boiuw65tsXazfk1giZI/eIWRNKJv0SsztAt3LpFnO1o=
@@ -4690,10 +3458,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-unicode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NFa5zLortuaUgLdTGejihn4zWek=
-			</data>
 			<key>hash2</key>
 			<data>
 			YTHw655BH6OSEB9YeT9OQ0fsO8b+RSJnNrGGAEzqgDg=
@@ -4701,10 +3465,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb-version.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sstGYn1GOxkDNtZy+HkUYC+1iWM=
-			</data>
 			<key>hash2</key>
 			<data>
 			hL8lp1fgM1coh1Hia49l25QU68Qt7PielM/mJ0y3qs0=
@@ -4712,10 +3472,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/Headers/hb.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zAdP6NIgD5P0Ci+F+3U4AR0fZ8s=
-			</data>
 			<key>hash2</key>
 			<data>
 			MaG1PbPuQ5WRbm1PEFssZHcrgDe7uX0ObR5KkF62xsk=
@@ -4723,10 +3479,6 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/libharfbuzz.a</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6wtwGdSJYZ3ARFOTMU9A18GhO0A=
-			</data>
 			<key>hash2</key>
 			<data>
 			wtc+nQU+pMhw/Ch0zizoWZEdppHfyCXhsY4I2gDLk20=
