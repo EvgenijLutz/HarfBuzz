@@ -58,7 +58,6 @@ let package = Package(
         .target(
             name: "HarfBuzz",
             dependencies: [
-                .product(name: "FreeType", package: "FreeType"),
                 .target(name: "HarfBuzzC")
             ],
             swiftSettings: [
