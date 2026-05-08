@@ -1,4 +1,4 @@
-// swift-tools-version: 6.2
+// swift-tools-version: 6.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -14,27 +14,29 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "HarfBuzz",
-            targets: ["HarfBuzz"]
+            name: "libharfbuzz",
+            targets: ["libharfbuzz"]
         ),
         .library(
             name: "HarfBuzzC",
             targets: ["HarfBuzzC"]
         ),
         .library(
-            name: "libharfbuzz",
-            targets: ["libharfbuzz"]
+            name: "HarfBuzz",
+            targets: ["HarfBuzz"]
         ),
     ],
-    dependencies: [
-        {
+    dependencies: {
 #if true
-            .package(url: "https://github.com/EvgenijLutz/FreeType.git", from: "2.14.3")
+        [
+            .package(url: "https://github.com/EvgenijLutz/LibPNG.git", from: .init(1, 6, 58)),
+        ]
 #else
-            .package(name: "FreeType", path: "../FreeType")
+        [
+            .package(name: "LibPNG", path: "../LibPNG"),
+        ]
 #endif
-        }()
-    ],
+    }(),
     targets: [
         .binaryTarget(
             name: "libharfbuzz",
@@ -43,7 +45,7 @@ let package = Package(
         .target(
             name: "HarfBuzzC",
             dependencies: [
-                .product(name: "FreeTypeC", package: "FreeType"),
+                .product(name: "LibPNGC", package: "LibPNG"),
                 .target(name: "libharfbuzz")
             ],
             cSettings: [

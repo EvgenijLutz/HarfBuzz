@@ -8,13 +8,13 @@
 #ifndef HarfBuzzC_hpp
 #define HarfBuzzC_hpp
 
-//#include <hb.h>
+#include <hb.h>
 
 #if defined __cplusplus
 extern "C" {
 #endif // __cplusplus
 
-void testHarfBuzzC(const char* __nonnull path);
+//void testHarfBuzzC(const char* __nonnull path);
 
 #if defined __cplusplus
 }

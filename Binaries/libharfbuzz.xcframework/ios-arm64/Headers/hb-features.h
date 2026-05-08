@@ -62,7 +62,7 @@ HB_BEGIN_DECLS
  *
  * Defined if Harfbuzz has been built with Freetype support.
  */
-#define HB_HAS_FREETYPE 1
+#undef HB_HAS_FREETYPE
 
 /**
  * HB_HAS_GDI:
@@ -93,6 +93,13 @@ HB_BEGIN_DECLS
 #undef HB_HAS_GRAPHITE
 
 /**
+ * HB_HAS_GPU:
+ *
+ * Defined if Harfbuzz has been built with the GPU library.
+ */
+#undef HB_HAS_GPU
+
+/**
  * HB_HAS_ICU:
  *
  * Defined if Harfbuzz has been built with ICU support.
@@ -100,11 +107,32 @@ HB_BEGIN_DECLS
 #undef HB_HAS_ICU
 
 /**
+ * HB_HAS_RASTER:
+ *
+ * Defined if Harfbuzz has been built with the raster library.
+ */
+#define HB_HAS_RASTER 1
+
+/**
+ * HB_HAS_SUBSET:
+ *
+ * Defined if Harfbuzz has been built with the subset library.
+ */
+#define HB_HAS_SUBSET 1
+
+/**
  * HB_HAS_UNISCRIBE:
  *
  * Defined if Harfbuzz has been built with Uniscribe support.
  */
 #undef HB_HAS_UNISCRIBE
+
+/**
+ * HB_HAS_VECTOR:
+ *
+ * Defined if Harfbuzz has been built with the vector library.
+ */
+#define HB_HAS_VECTOR 1
 
 /**
  * HB_HAS_WASM:

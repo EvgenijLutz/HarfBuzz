@@ -1,5 +1,0 @@
-module libharfbuzz {
-    header "../hb.h"
-
-    export *
-}

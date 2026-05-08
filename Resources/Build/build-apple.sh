@@ -1,16 +1,19 @@
-# bash
+# bash build-apple.sh
+
+# HarfBuzz
+
+source common.sh
 
 # Define some global variables
-freetype_framework_path='/Users/evgenij/Developer/Xcode projects/FreeTypeFramework/FreeType.xcframework'
+freetype_framework_path='/Users/evgenij/Developer/Xcode projects/FreeType/Binaries/libfreetype.xcframework'
+png_framework_path='/Users/evgenij/Developer/Xcode projects/LibPNG/Binaries/png.xcframework'
 platforms_path='/Applications/Xcode.app/Contents/Developer/Platforms'
 # Your signing identity to sign the xcframework. Execute "security find-identity -v -p codesigning" and select one from the list
-identity=B42A10624E8E06BC95CD03069100C6E67121D61B
+identity=070BA25D98F2A17A61E3E27E31BE64C06F901016
 
-
-# Console output formatting
-# https://stackoverflow.com/a/2924755
-bold=$(tput bold)
-normal=$(tput sgr0)
+# HarfBuzz source code folder
+source_name="harfbuzz-14.2.0"
+cd $source_name
 
 
 # Create the build directory if not exists
@@ -21,12 +24,31 @@ mkdir -p build-apple
 rm -f "build-apple/log.txt"
 
 
-exit_if_error() {
-  local result=$?
-  if [ $result -ne 0 ] ; then
-     echo "Received an exit code $result, aborting"
-     exit 1
-  fi
+make_pkg_config() {
+  local name=$1
+  local libname=$2
+  local config_name=$3
+  local prefix=${4}
+
+  echo $prefix
+
+  mkdir -p build-apple/$config_name/pkg-config
+  rm -f   "build-apple/$config_name/pkg-config/$name.pc"
+  # idk wtf meson.build expects freetype version to be at least 12.0.6 when the latest official version is 2.13.3, so we just define our own version
+  echo \
+"prefix=${prefix}
+exec_prefix=\${prefix}
+libdir=\${exec_prefix}
+includedir=\${prefix}/Headers 
+
+Name: $name
+Description: some description
+Version: 1000.0.0
+Libs: -L\${libdir} -l$libname
+Cflags: -I\"\${includedir}\"
+" \
+>> "build-apple/$config_name/pkg-config/$name.pc"
+  exit_if_error
 }
 
 
@@ -91,47 +113,54 @@ cpp_link_args = ['-arch', '$arch', '-mtargetos=$target_os']" \
   # Create custom pkg-config file for freetype to target specific platform and architecture
   mkdir -p build-apple/$config_name/
   if [[ "$platform_name" == "MacOSX" ]]; then
-    local freetype_target="macos-arm64_x86_64"
+    local framework_target="macos-arm64_x86_64"
   elif [[ "$platform_name" == "iPhoneOS" ]]; then
-    local freetype_target="ios-$arch"
+    local framework_target="ios-$arch"
   elif [[ "$platform_name" == "iPhoneSimulator" ]]; then
-    local freetype_target="ios-arm64_x86_64-simulator"
+    local framework_target="ios-arm64_x86_64-simulator"
   elif [[ "$platform_name" == "AppleTVOS" ]]; then
-    local freetype_target="tvos-$arch"
+    local framework_target="tvos-$arch"
   elif [[ "$platform_name" == "AppleTVSimulator" ]]; then
-    local freetype_target="tvos-arm64_x86_64-simulator"
+    local framework_target="tvos-arm64_x86_64-simulator"
   elif [[ "$platform_name" == "WatchOS" ]]; then
-    local freetype_target="watchos-$arch"
+    local framework_target="watchos-$arch"
   elif [[ "$platform_name" == "WatchSimulator" ]]; then
-    local freetype_target="watchos-arm64_x86_64-simulator"
+    local framework_target="watchos-arm64_x86_64-simulator"
   elif [[ "$platform_name" == "XROS" ]]; then
-    local freetype_target="xros-$arch"
+    local framework_target="xros-$arch"
   elif [[ "$platform_name" == "XRSimulator" ]]; then
-    local freetype_target="xros-arm64_x86_64-simulator"
+    local framework_target="xros-arm64_x86_64-simulator"
   else
     echo "Unknown platform $platform_name"
     exit 1
   fi
-  local freetype_path="$freetype_framework_path/$freetype_target"
-  mkdir -p build-apple/$config_name/pkg-config
-  rm -f   "build-apple/$config_name/pkg-config/freetype2.pc"
-  # idk wtf meson.build expects freetype version to be at least 12.0.6 when the latest official version is 2.13.3, so we just define our own version
-  echo \
-"prefix=\"$freetype_path\"
-exec_prefix=\${prefix}
-libdir=\${exec_prefix}
-includedir=\${prefix}/Headers 
+#   local freetype_path="$freetype_framework_path/$framework_target"
+#   mkdir -p build-apple/$config_name/pkg-config
+#   rm -f   "build-apple/$config_name/pkg-config/freetype2.pc"
+#   # idk wtf meson.build expects freetype version to be at least 12.0.6 when the latest official version is 2.13.3, so we just define our own version
+#   echo \
+# "prefix=\"$freetype_path\"
+# exec_prefix=\${prefix}
+# libdir=\${exec_prefix}
+# includedir=\${prefix}/Headers 
 
-Name: FreeType 2
-Description: A free, high-quality, and portable font engine.
-Version: 1000.0.0
-Requires: zlib, bzip2
-Libs: -L\${libdir} -llibfreetype
-Libs.private: -lz
-Cflags: -I\"\${includedir}\"
-" \
->> "build-apple/$config_name/pkg-config/freetype2.pc"
-  exit_if_error
+# Name: FreeType 2
+# Description: A free, high-quality, and portable font engine.
+# Version: 1000.0.0
+# Requires: zlib, bzip2
+# Libs: -L\${libdir} -llibfreetype
+# Libs.private: -lz
+# Cflags: -I\"\${includedir}\"
+# " \
+# >> "build-apple/$config_name/pkg-config/freetype2.pc"
+  # exit_if_error
+
+  #local freetype_path="$freetype_framework_path/$framework_target"
+  #make_pkg_config freetype2 libfreetype $config_name \"$freetype_path\"
+
+  local png_path="$png_framework_path/$framework_target"
+  echo ${png_path}
+  make_pkg_config libpng libpng16 $config_name "${png_path}"
   
   # Setup meson build
   echo "Configure meson"
@@ -147,7 +176,9 @@ Cflags: -I\"\${includedir}\"
     -Dgobject=disabled \
     -Dcairo=disabled \
     -Dchafa=disabled \
-    -Dfreetype=enabled \
+    -Dfreetype=disabled \
+    -Dpng=enabled \
+    -Dgpu=disabled \
     -Dtests=disabled \
     -Dintrospection=disabled \
     -Ddocs=disabled \
@@ -171,13 +202,12 @@ Cflags: -I\"\${includedir}\"
   rm -rf build-apple/$config_name/install/include/harfbuzz/hb-subset.h
   rm -rf build-apple/$config_name/install/include/harfbuzz/hb-subset-serialize.h
   
-  # About modules
-  # https://clang.llvm.org/docs/Modules.html
+  # Does not work anymore
   # Without module.modulemap HarfBuzz is not exposed to Swift
   # Copy the module map into the directory with installed header files
-  mkdir -p build-apple/$config_name/install/include/harfbuzz/HarfBuzz-Module  
-  cp module.modulemap build-apple/$config_name/install/include/harfbuzz/HarfBuzz-Module/module.modulemap
-  exit_if_error
+  # mkdir -p build-apple/$config_name/install/include/harfbuzz/HarfBuzz-Module  
+  # cp module.modulemap build-apple/$config_name/install/include/harfbuzz/HarfBuzz-Module/module.modulemap
+  # exit_if_error
   
   # Strip installed library
   strip -S build-apple/$config_name/install/lib/libharfbuzz.a >> build-apple/log.txt
