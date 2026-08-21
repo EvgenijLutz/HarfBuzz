@@ -17,7 +17,7 @@ Supports **iOS**, **macOS**, **tvOS**, **watchOS**, **visionOS** - device and si
 Add the following to your `Package.swift` dependency:
 
 ```swift
-.package(url: "https://github.com/EvgenijLutz/HarfBuzz", from: "14.2.0")
+.package(url: "https://github.com/EvgenijLutz/HarfBuzz", from: "14.3.1")
 ```
 
 Then add HarfBuzz as a dependency in your target:

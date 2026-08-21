@@ -13,23 +13,16 @@ let package = Package(
         .visionOS(.v1)
     ],
     products: [
-        .library(
-            name: "libharfbuzz",
-            targets: ["libharfbuzz"]
-        ),
-        .library(
-            name: "HarfBuzzC",
-            targets: ["HarfBuzzC"]
-        ),
-        .library(
-            name: "HarfBuzz",
-            targets: ["HarfBuzz"]
-        ),
+        .library(name: "HarfBuzz", targets: ["HarfBuzz"]),
+        .library(name: "HarfBuzzGPU", targets: ["HarfBuzzGPU"]),
+        .library(name: "HarfBuzzRaster", targets: ["HarfBuzzRaster"]),
+        .library(name: "HarfBuzzSubset", targets: ["HarfBuzzSubset"]),
+        .library(name: "HarfBuzzVector", targets: ["HarfBuzzVector"]),
     ],
     dependencies: {
 #if true
         [
-            .package(url: "https://github.com/EvgenijLutz/LibPNG.git", from: .init(1, 6, 58)),
+            .package(url: "https://github.com/EvgenijLutz/LibPNG.git", from: "1.6.58-rev1"),
         ]
 #else
         [
@@ -38,34 +31,69 @@ let package = Package(
 #endif
     }(),
     targets: [
-        .binaryTarget(
-            name: "libharfbuzz",
-            path: "Binaries/libharfbuzz.xcframework"
+        .binaryTarget(name: "libharfbuzz", path: "Binaries/libharfbuzz.xcframework"),
+        .binaryTarget(name: "libharfbuzz-gpu", path: "Binaries/libharfbuzz-gpu.xcframework"),
+        .binaryTarget(name: "libharfbuzz-raster", path: "Binaries/libharfbuzz-raster.xcframework"),
+        .binaryTarget(name: "libharfbuzz-subset", path: "Binaries/libharfbuzz-subset.xcframework"),
+        .binaryTarget(name: "libharfbuzz-vector", path: "Binaries/libharfbuzz-vector.xcframework"),
+        .target(
+            name: "HarfBuzz",
+            dependencies: [
+                .target(name: "libharfbuzz"),
+            ],
+            cSettings: [ .enableWarning("all") ]
         ),
         .target(
-            name: "HarfBuzzC",
+            name: "HarfBuzzGPU",
+            dependencies: [
+                .target(name: "HarfBuzz"),
+                .target(name: "libharfbuzz-gpu"),
+            ],
+            cSettings: [ .enableWarning("all") ]
+        ),
+        .target(
+            name: "HarfBuzzRaster",
             dependencies: [
                 .product(name: "LibPNGC", package: "LibPNG"),
-                .target(name: "libharfbuzz")
+                .target(name: "HarfBuzz"),
+                .target(name: "libharfbuzz-raster"),
+            ],
+            cSettings: [ .enableWarning("all") ]
+        ),
+        .target(
+            name: "HarfBuzzSubset",
+            dependencies: [
+                .target(name: "HarfBuzz"),
+                .target(name: "libharfbuzz-subset"),
+            ],
+            cSettings: [ .enableWarning("all") ]
+        ),
+        .target(
+            name: "HarfBuzzVector",
+            dependencies: [
+                .target(name: "HarfBuzz"),
+                .target(name: "libharfbuzz-vector"),
             ],
             cSettings: [
                 .enableWarning("all")
             ],
-            cxxSettings: [
-                .enableWarning("all")
+            linkerSettings: [
+                // Links libz.tbd that comes with all Apple and Android systems
+                .linkedLibrary("z"),
+                // Links libbz2.tbd that comes with all Apple systems, but not Android :(
+                .linkedLibrary("bz2", .when(platforms: [.macOS, .iOS, .tvOS, .watchOS, .visionOS]))
             ]
         ),
         .target(
-            name: "HarfBuzz",
+            name: "HarfBuzzC",
             dependencies: [
-                .target(name: "HarfBuzzC")
+                .target(name: "libharfbuzz"),
+                .product(name: "LibPNGC", package: "LibPNG")
             ],
-            swiftSettings: [
-                .interoperabilityMode(.Cxx)
-            ]
+            cSettings: [ .enableWarning("all") ]
         ),
     ],
-    // The lcms2 library was compiled using c17, so set it also here
+    // The HarfBuzz library was compiled using c17, so set it also here
     cLanguageStandard: .c17,
     // Also use c++20, we don't live in the stone age, but still not ready to accept c++23
     cxxLanguageStandard: .cxx20

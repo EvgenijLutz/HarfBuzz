@@ -48,7 +48,7 @@ HB_BEGIN_DECLS
  *
  * Defined if Harfbuzz has been built with CoreText support.
  */
-#undef HB_HAS_CORETEXT
+#define HB_HAS_CORETEXT 1
 
 /**
  * HB_HAS_DIRECTWRITE:
@@ -62,7 +62,7 @@ HB_BEGIN_DECLS
  *
  * Defined if Harfbuzz has been built with Freetype support.
  */
-#undef HB_HAS_FREETYPE
+#define HB_HAS_FREETYPE 1
 
 /**
  * HB_HAS_GDI:
