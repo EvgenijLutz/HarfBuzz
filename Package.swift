@@ -21,7 +21,7 @@ let package = Package(
         .library(name: "HarfBuzzFreeType", targets: ["HarfBuzzFreeType"]),
     ],
     dependencies: {
-#if false
+#if true
         [
             //.package(url: "https://github.com/EvgenijLutz/LibPNG.git", from: "1.6.58-rev1"),
             .package(url: "https://github.com/EvgenijLutz/LibPNG.git", branch: "main"),
