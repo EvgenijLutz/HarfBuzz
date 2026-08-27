@@ -50,7 +50,7 @@ Voilà, you're good to go!
 
 ## Package products
 
-The package exposes seven products that are accessible from C, C++ and Swift.
+The package exposes six products that are accessible from C, C++ and Swift.
 
 
 ### HarfBuzz
