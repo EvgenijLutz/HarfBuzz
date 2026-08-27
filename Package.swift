@@ -23,8 +23,8 @@ let package = Package(
     dependencies: {
 #if true
         [
-            //.package(url: "https://github.com/EvgenijLutz/LibPNG.git", from: "1.6.58-rev1"),
-            .package(url: "https://github.com/EvgenijLutz/LibPNG.git", branch: "main"),
+            .package(url: "https://github.com/EvgenijLutz/LibPNG.git", exact: "1.6.58-rev1"),
+            //.package(url: "https://github.com/EvgenijLutz/LibPNG.git", branch: "main"),
             .package(url: "https://github.com/EvgenijLutz/FreeType.git", from: "2.14.3")
         ]
 #else
