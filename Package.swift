@@ -18,15 +18,19 @@ let package = Package(
         .library(name: "HarfBuzzRaster", targets: ["HarfBuzzRaster"]),
         .library(name: "HarfBuzzSubset", targets: ["HarfBuzzSubset"]),
         .library(name: "HarfBuzzVector", targets: ["HarfBuzzVector"]),
+        .library(name: "HarfBuzzFreeType", targets: ["HarfBuzzFreeType"]),
     ],
     dependencies: {
-#if true
+#if false
         [
-            .package(url: "https://github.com/EvgenijLutz/LibPNG.git", from: "1.6.58-rev1"),
+            //.package(url: "https://github.com/EvgenijLutz/LibPNG.git", from: "1.6.58-rev1"),
+            .package(url: "https://github.com/EvgenijLutz/LibPNG.git", branch: "main"),
+            .package(url: "https://github.com/EvgenijLutz/FreeType.git", from: "2.14.3")
         ]
 #else
         [
             .package(name: "LibPNG", path: "../LibPNG"),
+            .package(name: "FreeType", path: "../FreeType"),
         ]
 #endif
     }(),
@@ -83,6 +87,14 @@ let package = Package(
                 // Links libbz2.tbd that comes with all Apple systems, but not Android :(
                 .linkedLibrary("bz2", .when(platforms: [.macOS, .iOS, .tvOS, .watchOS, .visionOS]))
             ]
+        ),
+        .target(
+            name: "HarfBuzzFreeType",
+            dependencies: [
+                .target(name: "HarfBuzz"),
+                .product(name: "FreeTypeC", package: "FreeType"),
+            ],
+            cSettings: [ .enableWarning("all") ]
         ),
         .target(
             name: "HarfBuzzC",

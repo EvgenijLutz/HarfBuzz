@@ -4,6 +4,7 @@
 
 source common.sh
 
+
 # Define some global variables
 freetype_framework_path='/Users/evgenij/Developer/Xcode projects/FreeType/Binaries/libfreetype.xcframework'
 png_framework_path='/Users/evgenij/Developer/Xcode projects/LibPNG/Binaries/png.xcframework'
@@ -15,7 +16,7 @@ platforms_path='/Applications/Xcode.app/Contents/Developer/Platforms'
 identity=070BA25D98F2A17A61E3E27E31BE64C06F901016
 
 # HarfBuzz source code folder
-source_name="harfbuzz-14.3.1"
+source_name="harfbuzz-14.4.0"
 
 
 # Create the build directory if not exists
@@ -117,28 +118,7 @@ cpp_link_args = ['-isysroot', '$platforms_path/$platform_name.platform/Developer
 
   # Create custom pkg-config file for freetype to target specific platform and architecture
   mkdir -p build-apple/$build_name/
-  if [[ "$platform_name" == "MacOSX" ]]; then
-    local framework_target="macos-arm64_x86_64"
-  elif [[ "$platform_name" == "iPhoneOS" ]]; then
-    local framework_target="ios-$arch"
-  elif [[ "$platform_name" == "iPhoneSimulator" ]]; then
-    local framework_target="ios-arm64_x86_64-simulator"
-  elif [[ "$platform_name" == "AppleTVOS" ]]; then
-    local framework_target="tvos-$arch"
-  elif [[ "$platform_name" == "AppleTVSimulator" ]]; then
-    local framework_target="tvos-arm64_x86_64-simulator"
-  elif [[ "$platform_name" == "WatchOS" ]]; then
-    local framework_target="watchos-$arch"
-  elif [[ "$platform_name" == "WatchSimulator" ]]; then
-    local framework_target="watchos-arm64_x86_64-simulator"
-  elif [[ "$platform_name" == "XROS" ]]; then
-    local framework_target="xros-$arch"
-  elif [[ "$platform_name" == "XRSimulator" ]]; then
-    local framework_target="xros-arm64_x86_64-simulator"
-  else
-    echo "Unknown platform $platform_name"
-    exit 1
-  fi
+  set_framework_target_var $platform_name $arch
 
   # The build system checks if all symbols are provided. LibPNG is linked to Brotli, thus we also generate .pc files for them.
 
@@ -190,7 +170,7 @@ cpp_link_args = ['-isysroot', '$platforms_path/$platform_name.platform/Developer
   # Install compiled libraries and headers into the install folder
   meson install -C build-apple/$build_name
 
-  # Strip installed libraries
+  # Strip installed libraries because meson did not strip then, although we asked it to do so
   strip -S build-apple/$install_name/lib/libharfbuzz-gpu.a
   strip -S build-apple/$install_name/lib/libharfbuzz-raster.a
   strip -S build-apple/$install_name/lib/libharfbuzz-subset.a
