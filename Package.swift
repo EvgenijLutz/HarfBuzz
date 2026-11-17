@@ -1,4 +1,4 @@
-// swift-tools-version: 6.3
+// swift-tools-version: 6.4
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -6,11 +6,11 @@ import PackageDescription
 let package = Package(
     name: "HarfBuzz",
     platforms: [
-        .macOS(.v11),
-        .iOS(.v12),
-        .tvOS(.v12),
-        .watchOS(.v8),
-        .visionOS(.v1)
+        .macOS(.v12),
+        .iOS(.v15),
+        .tvOS(.v15),
+        .watchOS(.v9),
+        .visionOS(.v1),
     ],
     products: [
         .library(name: "HarfBuzz", targets: ["HarfBuzz"]),

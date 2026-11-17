@@ -1,3 +1,6 @@
+#!/bin/bash
+
+# Build the Xcode framework:
 # bash build-apple.sh
 
 # HarfBuzz
@@ -11,12 +14,9 @@ png_framework_path='/Users/evgenij/Developer/Xcode projects/LibPNG/Binaries/png.
 libbrotlicommon_framework_path='/Users/evgenij/Developer/Xcode projects/Brotli/Binaries/libbrotlicommon.xcframework'
 libbrotlienc_framework_path='/Users/evgenij/Developer/Xcode projects/Brotli/Binaries/libbrotlienc.xcframework'
 libbrotlidec_framework_path='/Users/evgenij/Developer/Xcode projects/Brotli/Binaries/libbrotlidec.xcframework'
-platforms_path='/Applications/Xcode.app/Contents/Developer/Platforms'
-# Your signing identity to sign the xcframework. Execute "security find-identity -v -p codesigning" and select one from the list
-identity=070BA25D98F2A17A61E3E27E31BE64C06F901016
 
 # HarfBuzz source code folder
-source_name="harfbuzz-14.4.0"
+source_name="harfbuzz-15.1.0"
 
 
 # Create the build directory if not exists
@@ -184,17 +184,17 @@ cpp_link_args = ['-isysroot', '$platforms_path/$platform_name.platform/Developer
 }
 
 
-build_library MacOSX           arm64  macos11
-build_library MacOSX           x86_64 macos10.13
-build_library iPhoneOS         arm64  ios12
-build_library iPhoneSimulator  arm64  ios14-simulator
-build_library iPhoneSimulator  x86_64 ios12-simulator
-build_library AppleTVOS        arm64  tvos12
-build_library AppleTVSimulator arm64  tvos12-simulator
-build_library AppleTVSimulator x86_64 tvos12-simulator
-build_library WatchOS          arm64  watchos8
-build_library WatchSimulator   arm64  watchos8-simulator
-build_library WatchSimulator   x86_64 watchos8-simulator
+build_library MacOSX           arm64  macos12
+build_library MacOSX           x86_64 macos12
+build_library iPhoneOS         arm64  ios15
+build_library iPhoneSimulator  arm64  ios15-simulator
+build_library iPhoneSimulator  x86_64 ios15-simulator
+build_library AppleTVOS        arm64  tvos15
+build_library AppleTVSimulator arm64  tvos15-simulator
+build_library AppleTVSimulator x86_64 tvos15-simulator
+build_library WatchOS          arm64  watchos9
+build_library WatchSimulator   arm64  watchos9-simulator
+build_library WatchSimulator   x86_64 watchos9-simulator
 build_library XROS             arm64  xros1
 build_library XRSimulator      arm64  xros1-simulator
 build_library XRSimulator      x86_64 xros1-simulator
@@ -287,7 +287,7 @@ create_framework() {
   exit_if_error
 
   # And sign the framework
-  codesign --timestamp -s $identity build-apple/$name.xcframework
+  codesign --timestamp -s $xcode_signing_identity build-apple/$name.xcframework
   exit_if_error
 }
 create_framework "libharfbuzz" true "build-apple" "install/include/harfbuzz"
