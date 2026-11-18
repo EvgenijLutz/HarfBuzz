@@ -184,20 +184,20 @@ cpp_link_args = ['-isysroot', '$platforms_path/$platform_name.platform/Developer
 }
 
 
-build_library MacOSX           arm64  macos12
-build_library MacOSX           x86_64 macos12
-build_library iPhoneOS         arm64  ios15
-build_library iPhoneSimulator  arm64  ios15-simulator
-build_library iPhoneSimulator  x86_64 ios15-simulator
-build_library AppleTVOS        arm64  tvos15
-build_library AppleTVSimulator arm64  tvos15-simulator
-build_library AppleTVSimulator x86_64 tvos15-simulator
-build_library WatchOS          arm64  watchos9
-build_library WatchSimulator   arm64  watchos9-simulator
-build_library WatchSimulator   x86_64 watchos9-simulator
-build_library XROS             arm64  xros1
-build_library XRSimulator      arm64  xros1-simulator
-build_library XRSimulator      x86_64 xros1-simulator
+build_library MacOSX           arm64  macos26
+build_library MacOSX           x86_64 macos26
+build_library iPhoneOS         arm64  ios26
+build_library iPhoneSimulator  arm64  ios26-simulator
+build_library iPhoneSimulator  x86_64 ios26-simulator
+build_library AppleTVOS        arm64  tvos26
+build_library AppleTVSimulator arm64  tvos26-simulator
+build_library AppleTVSimulator x86_64 tvos26-simulator
+build_library WatchOS          arm64  watchos26
+build_library WatchSimulator   arm64  watchos26-simulator
+build_library WatchSimulator   x86_64 watchos26-simulator
+build_library XROS             arm64  xros26
+build_library XRSimulator      arm64  xros26-simulator
+build_library XRSimulator      x86_64 xros26-simulator
 
 
 create_framework() {
