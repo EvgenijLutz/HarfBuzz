@@ -15,7 +15,7 @@ Supports **iOS**, **macOS**, **tvOS**, **watchOS**, **visionOS** - device and si
 - Included the experimental `vector` library
 - Included the experimental `gpu` library (optional via `gpu=enabled`)
 - C and C++ headers available to Swift
-- Minimal binary size (≈2.3 MB for the core harfbuzz library per platform)
+- Minimal binary size (\~3 MB for the core harfbuzz library per platform)
 - Delivered as `.xcframework` via Swift Package Manager
 
 
@@ -24,7 +24,7 @@ Supports **iOS**, **macOS**, **tvOS**, **watchOS**, **visionOS** - device and si
 Add the following to your `Package.swift` dependency:
 
 ```swift
-.package(url: "https://github.com/EvgenijLutz/HarfBuzz", from: "15.1.0")
+.package(url: "https://github.com/EvgenijLutz/HarfBuzz", from: "15.2.0")
 ```
 
 Then add one of HarfBuzz dependencies in your target:
@@ -70,12 +70,12 @@ Links against the `harfbuzz-raster` library. Has a dependency to the `HarfBuzz` 
 
 ### HarfBuzzSubset
 
-Links against the `harfbuzz-subset` library. Has a dependency to the `HarfBuzz` package product.
+The fattest binary. Links against the **[harfbuzz-subset](https://harfbuzz.github.io/harfbuzz-hb-subset.html)** library. Has a dependency to the `HarfBuzz` package product.
 
 
 ### HarfBuzzVector
 
-Links against the `harfbuzz-raster` library. Has a dependency to the `HarfBuzz` package product, `z` and `bz2` library (both included in all Apple platforms).
+Links against the `harfbuzz-vector` library. Has a dependency to the `HarfBuzz` package product, `z` and `bz2` library (both included in all Apple platforms).
 
 
 ### HarfBuzzFreeType

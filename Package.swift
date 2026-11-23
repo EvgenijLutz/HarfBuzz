@@ -24,7 +24,7 @@ let package = Package(
 #if true
         [
             .package(url: "https://github.com/EvgenijLutz/LibPNG.git", from: "1.6.58"),
-            .package(url: "https://github.com/EvgenijLutz/FreeType.git", from: "2.14.3")
+            .package(url: "https://github.com/EvgenijLutz/FreeType.git", from: "2.15.0")
         ]
 #else
         [
@@ -101,7 +101,9 @@ let package = Package(
                 .target(name: "libharfbuzz"),
                 .product(name: "LibPNGC", package: "LibPNG")
             ],
-            cSettings: [ .enableWarning("all") ]
+            cSettings: [
+                .enableWarning("all")
+            ]
         ),
     ],
     // The HarfBuzz library was compiled using c17, so set it also here

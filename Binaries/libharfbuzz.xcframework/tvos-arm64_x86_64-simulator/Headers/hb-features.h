@@ -97,7 +97,7 @@ HB_BEGIN_DECLS
  *
  * Defined if Harfbuzz has been built with the GPU library.
  */
-#undef HB_HAS_GPU
+#define HB_HAS_GPU 1
 
 /**
  * HB_HAS_ICU:
